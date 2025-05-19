@@ -1,14 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SHOP WEB</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    <h1>HELLO WORLD</h1>
-    <h4>|WOrd</h4>
-    <p>dfjivh</p>
-</body>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__wrapper-top__color">
+        <div class="container">
+          <div class="header__wrapper-top">
+            <div></div>
+            <p>
+              Sign up and get 20% off to your first order.
+              <a href="#">Sign Up Now</a>
+            </p>
+            <div>
+              <i class="bi bi-x closeTheHead"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="header__wrapper-bottom">
+          <i class="bi bi-list openDropdown"></i>
+          <div>
+            <a href="./index.html"
+              ><img width="100%" src="assets/SHOP.CO.png" alt=""
+            /></a>
+          </div>
+          <div class="header__links">
+            <a href="#" class="header__link"
+              >Shop <i class="bi bi-chevron-down"></i
+            ></a>
+            <a href="#" class="header__link">On Sale</a>
+            <a href="#" class="header__link">New Arrivals</a>
+            <a href="#" class="header__link">Brands</a>
+          </div>
+          <div class="search__inp">
+            <input
+              type="search"
+              name=""
+              placeholder="Search for products..."
+              id=""
+            />
+            <span><i class="bi bi-search"></i></span>
+          </div>
+          <i class="bi bi-cart"></i>
+          <i class="bi bi-person-circle"></i>
+        </div>
+        <div class="dropdown__header">
+          <a href="#" class="header__link"
+            >Shop <i class="bi bi-chevron-down"></i
+          ></a>
+          <a href="#" class="header__link">On Sale</a>
+          <a href="#" class="header__link">New Arrivals</a>
+          <a href="#" class="header__link">Brands</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="container">
+          <div class="hero__wrapper">
+            <div class="hero__first">
+              <h1 class="hero__title">FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
+              <p class="hero__text">
+                Browse through our diverse range of meticulously crafted
+                garments, designed to bring out your individuality and cater to
+                your sense of style.
+              </p>
+              <a href="./product.html" class="hero__btnLink"
+                ><button class="hero__btn">Shop Now</button></a
+              >
+              <div class="hero__status">
+                <div class="statusOfHero">
+                  <p class="status_num">200+</p>
+                  <p class="status_name">International Brands</p>
+                </div>
+                <div class="statusOfHero">
+                  <p class="status_num">2,000+</p>
+                  <p class="status_name">High-quality Products</p>
+                </div>
+
+                <div class="statusOfHero">
+                  <p class="status_num">30,000+</p>
+                  <p class="status_name">Happy Customers</p>
+                </div>
+              </div>
+            </div>
+            <div class="hero__second">
+              <img
+                src="assets/hero__img.png"
+                class="hero__mainImage"
+                width="100%"
+                alt=""
+                class="hero__img"
+              />
+              <div class="div_star">
+                <img src="assets/small_heroStar.svg" alt="" />
+              </div>
+              <div class="div_star">
+                <img src="assets/small_heroStar.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="collobrators">
+        <div class="container">
+          <div class="collobrator__wrapper">
+            <img src="assets/Brand1.svg" alt="" class="collobratorImage" />
+            <img src="assets/Brand2.svg" alt="" class="collobratorImage" />
+            <img src="assets/Brand3.svg" alt="" class="collobratorImage" />
+            <img src="assets/Brand4.svg" alt="" class="collobratorImage" />
+            <img src="assets/Brand5.svg" alt="" class="collobratorImage" />
+          </div>
+        </div>
+      </section>
+      <section class="arrivals">
+        <div class="container">
+          <h1 class="arrivals__text">NEW ARRIVALS</h1>
+          <div class="arrivals__wrapper">
+            <div class="arrival_product">
+              <img src="assets/Productimage1.png" alt="" />
+              <p class="arriva_name">T-shirt Tape details</p>
+              <p class="productRating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                4.5/5
+              </p>
+              <div class="arrival__discount">
+                <p>$240 <del class="realArrivalPrice"> $260</del></p>
+                <span class="arrivalDisPercent">-20%</span>
+              </div>
+            </div>
+            <div class="arrival_product">
+              <img src="assets/Productimage2.png" alt="" />
+              <p class="arriva_name">T-shirt Tape details</p>
+              <p class="productRating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                4.5/5
+              </p>
+              <div class="arrival__discount">
+                <p>$240 <del class="realArrivalPrice"> $260</del></p>
+                <span class="arrivalDisPercent">-20%</span>
+              </div>
+            </div>
+            <div class="arrival_product">
+              <img src="assets/Productimage3.png" alt="" />
+              <p class="arriva_name">T-shirt Tape details</p>
+              <p class="productRating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                4.5/5
+              </p>
+              <div class="arrival__discount">
+                <p>$240 <del class="realArrivalPrice"> $260</del></p>
+                <span class="arrivalDisPercent">-20%</span>
+              </div>
+            </div>
+            <div class="arrival_product">
+              <img src="assets/Productimage4.png" alt="" />
+              <p class="arriva_name">T-shirt Tape details</p>
+              <p class="productRating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                4.5/5
+              </p>
+              <div class="arrival__discount">
+                <p>$240 <del class="realArrivalPrice"> $260</del></p>
+                <span class="arrivalDisPercent">-20%</span>
+              </div>
+            </div>
+          </div>
+          <center><button class="arrival_viewAll">View All</button></center>
+        </div>
+      </section>
+      <hr />
+
+      <section class="top-selling">
+        <div class="container">
+          <h1 class="top-selling__text">TOP SELLING</h1>
+          <div class="top-selling__wrapper">
+            <div class="top-selling__product">
+              <img src="assets/Productimage5.png" alt="" />
+              <p class="top-selling__name">T-shirt Tape details</p>
+              <p class="productRating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                4.5/5
+              </p>
+              <div class="top-selling__discount">
+                <p>$240 <del class="top-selling__realPrice"> $260</del></p>
+                <span class="top-selling__percent">-20%</span>
+              </div>
+            </div>
+            <div class="top-selling__product">
+              <img src="assets/Productimage6.png" alt="" />
+              <p class="top-selling__name">T-shirt Tape details</p>
+              <p class="productRating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                4.5/5
+              </p>
+              <div class="top-selling__discount">
+                <p>$240 <del class="top-selling__realPrice"> $260</del></p>
+                <span class="top-selling__percent">-20%</span>
+              </div>
+            </div>
+            <div class="top-selling__product">
+              <img src="assets/Productimage7.png" alt="" />
+              <p class="top-selling__name">T-shirt Tape details</p>
+              <p class="productRating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                4.5/5
+              </p>
+              <div class="top-selling__discount">
+                <p>$240 <del class="top-selling__realPrice"> $260</del></p>
+                <span class="top-selling__percent">-20%</span>
+              </div>
+            </div>
+            <div class="top-selling__product">
+              <img src="assets/Productimage8.png" alt="" />
+              <p class="top-selling__name">T-shirt Tape details</p>
+              <p class="productRating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                4.5/5
+              </p>
+              <div class="top-selling__discount">
+                <p>$240 <del class="top-selling__realPrice"> $260</del></p>
+                <span class="top-selling__percent">-20%</span>
+              </div>
+            </div>
+          </div>
+          <center>
+            <button class="top-selling__viewAll">View All</button>
+          </center>
+        </div>
+      </section>
+      <section class="browse">
+        <div class="container">
+          <h1 class="browse__title">BROWSE BY DRESS STYLE</h1>
+          <div class="browse__display">
+            <div class="browseGridDiv1">Casual</div>
+            <div class="browseGridDiv2">Formal</div>
+            <div class="browseGridDiv3">Party</div>
+            <div class="browseGridDiv4">Gym</div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="app.js"></script>
 </html>

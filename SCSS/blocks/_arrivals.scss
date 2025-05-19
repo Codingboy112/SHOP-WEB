@@ -1,0 +1,102 @@
+.arrivals {
+  margin-bottom: 30px;
+  .arrivals__text {
+    text-align: center;
+    font-size: 30px;
+  }
+  .arrivals__wrapper {
+    @include d-flex(20px, space-between);
+    flex-wrap: wrap;
+    margin-top: 30px;
+    .arrival_product {
+      img {
+        width: 100%;
+      }
+      .arriva_name {
+        font-weight: 700;
+        margin: 10px 0;
+      }
+      .productRating {
+        .bi {
+          color: rgba(255, 198, 51, 1);
+        }
+      }
+      .arrival__discount {
+        font-weight: 700;
+        font-size: 20px;
+        @include d-flex(10px, start);
+
+        .realArrivalPrice {
+          color: gray;
+        }
+        .arrivalDisPercent {
+          padding: 5px 20px;
+          background-color: rgba(255, 0, 0, 0.3);
+          color: red;
+          font-size: 12px;
+          font-weight: 300;
+          border-radius: 20px;
+        }
+      }
+    }
+  }
+  .arrival_viewAll {
+    max-width: 300px;
+    border: 1px solid rgba(128, 128, 128, 0.373);
+    padding: 10px 50px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: transparent;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .arrivals {
+    .arrivals__wrapper {
+      .arrival_product:nth-child(4) {
+        display: none;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .arrivals {
+    .arrivals__wrapper {
+      .arrival_product:nth-child(4) {
+        display: inline-block;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .arrivals {
+    .arrivals__wrapper {
+      .arrival_product {
+        max-width: 240px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 524px) {
+  .arrivals {
+    .arrivals__wrapper {
+      .arrival_product {
+        max-width: 200px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 446px) {
+  .arrivals {
+    .arrivals__wrapper {
+      .arrival_product {
+        max-width: 150px;
+      }
+    }
+  }
+}

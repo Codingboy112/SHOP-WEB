@@ -1,0 +1,104 @@
+.top-selling {
+    margin-top: 30px;
+  .top-selling__text {
+    text-align: center;
+    font-size: 30px;
+  }
+  .top-selling__wrapper {
+    @include d-flex(20px, space-between);
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+    .top-selling__product {
+      img {
+        width: 100%;
+      }
+      .top-selling__name {
+        font-weight: 700;
+        margin: 10px 0;
+      }
+      .productRating {
+        .bi {
+          color: rgba(255, 198, 51, 1);
+        }
+      }
+      .top-selling__discount {
+        font-weight: 700;
+        font-size: 20px;
+        @include d-flex(10px, start);
+
+        .top-selling__realPrice {
+          color: gray;
+        }
+        .top-selling__percent {
+          padding: 5px 20px;
+          background-color: rgba(255, 0, 0, 0.3);
+          color: red;
+          font-size: 12px;
+          font-weight: 300;
+          border-radius: 20px;
+        }
+      }
+    }
+  }
+
+  .top-selling__viewAll {
+    max-width: 300px;
+    border: 1px solid rgba(128, 128, 128, 0.373);
+    padding: 10px 50px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: transparent;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .top-selling {
+    .top-selling__wrapper {
+      .top-selling__product:nth-child(4) {
+        display: none;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .top-selling {
+    .top-selling__wrapper {
+      .top-selling__product:nth-child(4) {
+        display: inline-block;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .top-selling {
+    .top-selling__wrapper {
+      .top-selling__product {
+        max-width: 240px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 524px) {
+  .top-selling {
+    .top-selling__wrapper {
+      .top-selling__product {
+        max-width: 200px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 446px) {
+  .top-selling {
+    .top-selling__wrapper {
+      .top-selling__product {
+        max-width: 150px;
+      }
+    }
+  }
+}
