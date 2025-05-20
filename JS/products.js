@@ -1,18 +1,16 @@
-const rangeMin = document.getElementById('range-min');
-const rangeMax = document.getElementById('range-max');
-const minPrice = document.getElementById('min-price');
-const maxPrice = document.getElementById('max-price');
+let dropdownDiv = document.querySelectorAll(".dropdown__Filter");
+let dropdownButton = document.querySelectorAll(".dropdownChanger");
 
-rangeMin.addEventListener('input', () => {
-  if (parseInt(rangeMin.value) > parseInt(rangeMax.value)) {
-    rangeMin.value = rangeMax.value;
-  }
-  minPrice.textContent = `$${rangeMin.value}`;
-});
-
-rangeMax.addEventListener('input', () => {
-  if (parseInt(rangeMax.value) < parseInt(rangeMin.value)) {
-    rangeMax.value = rangeMin.value;
-  }
-  maxPrice.textContent = `$${rangeMax.value}`;
+dropdownButton.forEach((el, i) => {
+  el.addEventListener("click", () => {
+    if (el.classList.contains('dropdownActive')) {
+      el.classList.remove('dropdownActive');
+      dropdownDiv[i].style.height = "0";
+      el.style.transform = "rotate(0deg)"
+    } else{
+      el.classList.add('dropdownActive')
+      dropdownDiv[i].style.height = "auto";
+            el.style.transform = "rotate(180deg)"
+    }
+  });
 });
