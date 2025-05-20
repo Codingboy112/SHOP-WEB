@@ -33,6 +33,7 @@
   .dropdown__header {
     @include d-flex(20px, space-between);
     flex-direction: column;
+    margin-bottom: 10px;
     align-items: start;
     a {
       color: $black;

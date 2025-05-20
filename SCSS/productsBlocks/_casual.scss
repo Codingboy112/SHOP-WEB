@@ -1,0 +1,26 @@
+.products {
+  .navigatorDiv {
+    @include d-flex(10px, start);
+  }
+  .products__wrapper {
+    margin-top: 50px;
+    @include d-flex(10px, space-between);
+    .first__filter {
+      width: 30%; 
+      border: 2px solid $darkGray;
+      padding: 20px;
+      border-radius: 10px;
+     .filter__smallWrap{
+      @include d-flex(20px, space-between);
+      margin: 0 0 10px 0;
+     }
+     .filter__dressType{
+      margin: 10px 0;
+      .dressTypes{
+        @include d-flex(20px, space-between);
+        margin-top: 10px;
+      }
+     }
+    }
+  }
+}

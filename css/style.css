@@ -8,6 +8,7 @@
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 button {
@@ -88,6 +89,7 @@ body {
   gap: 20px;
   justify-content: space-between;
   flex-direction: column;
+  margin-bottom: 10px;
   align-items: start;
 }
 .header .dropdown__header a {
@@ -504,8 +506,8 @@ body {
 }
 .footer {
   background-color: rgb(240, 240, 240);
-  margin-top: 40px;
-  padding: 100px 0 10px 0;
+  margin-top: -80px;
+  padding: 140px 0 10px 0;
 }
 .footer .footer__wrapper {
   display: grid;
@@ -651,6 +653,8 @@ body {
   }
 }
 .subscribe {
+  position: relative;
+  z-index: 1;
   margin-top: 30px;
 }
 .subscribe .subscribe__wrapper {
@@ -704,6 +708,7 @@ body {
   border-radius: 30px;
   font-weight: 600;
   color: black;
+  border: none;
 }
 
 @media only screen and (max-width: 992px) {
