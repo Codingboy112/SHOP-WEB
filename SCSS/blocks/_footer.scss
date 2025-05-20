@@ -44,35 +44,40 @@
         font-weight: 600;
         letter-spacing: 1px;
       }
-      
     }
-}
-.footer__line{
-  margin: 24px 0;
-}
+  }
+  .footer__line {
+    margin: 24px 0;
+  }
+  .footer__bottom{
+    @include d-flex(10px, space-between)
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    .footer{
-        .footer__wrapper{
-            .footer__first{
-                grid-column: 1/7;
-            }
-           .footer__second{
-            grid-column: 1/4;
-           } 
-           .footer__third{
-            grid-column: 4/7;
-           } 
-           .footer__forth{
-            grid-column: 1/4;
-           }
-           .footer__fourth{
-            grid-column: 1/4;
-           }
-           .footer__fifth{
-            grid-column: 4/7;
-           }
-        }
+  .footer {
+    .footer__wrapper {
+      .footer__first {
+        grid-column: 1/7;
+      }
+      .footer__second {
+        grid-column: 1/4;
+      }
+      .footer__third {
+        grid-column: 4/7;
+      }
+      .footer__forth {
+        grid-column: 1/4;
+      }
+      .footer__fourth {
+        grid-column: 1/4;
+      }
+      .footer__fifth {
+        grid-column: 4/7;
+      }
     }
+    .footer__bottom{
+        flex-direction: column;
+    }
+  }
 }

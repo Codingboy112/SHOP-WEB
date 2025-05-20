@@ -560,6 +560,12 @@ body {
 .footer .footer__line {
   margin: 24px 0;
 }
+.footer .footer__bottom {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
 
 @media only screen and (max-width: 768px) {
   .footer .footer__wrapper .footer__first {
@@ -579,6 +585,9 @@ body {
   }
   .footer .footer__wrapper .footer__fifth {
     grid-column: 4/7;
+  }
+  .footer .footer__bottom {
+    flex-direction: column;
   }
 }
 .happyCustomers {
