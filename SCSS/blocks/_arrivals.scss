@@ -95,6 +95,16 @@
   .arrivals {
     .arrivals__wrapper {
       .arrival_product {
+        max-width: 170px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 384px) {
+  .arrivals {
+    .arrivals__wrapper {
+      .arrival_product {
         max-width: 150px;
       }
     }

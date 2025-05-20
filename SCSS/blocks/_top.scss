@@ -97,6 +97,16 @@
   .top-selling {
     .top-selling__wrapper {
       .top-selling__product {
+        max-width: 170px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 384px) {
+  .top-selling {
+    .top-selling__wrapper {
+      .top-selling__product {
         max-width: 150px;
       }
     }

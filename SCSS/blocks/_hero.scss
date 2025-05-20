@@ -117,7 +117,7 @@
   margin: 40px 0;
   padding: 30px 0;
   .collobrator__wrapper{
-    @include d-flex(10px, space-between);
+    @include d-flex(30px, space-between);
     overflow-x: scroll;
   }
   .collobrator__wrapper::-webkit-scrollbar{

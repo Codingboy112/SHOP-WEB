@@ -1,0 +1,135 @@
+.happyCustomers {
+  margin-top: 40px;
+  .happyCustomers__wrapper-top {
+    @include d-flex(20px, space-between);
+    .happyCustomers__title {
+      font-family: "Anton", sans-serif;
+      font-size: 40px;
+    }
+    i {
+      font-size: 20px;
+    }
+    .comments__scroll {
+      min-width: 70px;
+    }
+  }
+  .card-list {
+    margin-top: 30px;
+    width: 100%;
+    @include d-flex(30px, space-between);
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    list-style-type: none;
+    padding-bottom: 10px;
+
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    .card-item {
+      width: 340px;
+      flex: 0 0 auto;
+      border: 2px solid $gray;
+      border-radius: 15px;
+      padding: 25px;
+      .happyUser__rating {
+        color: rgba(255, 198, 51, 1);
+      }
+      .happyUserName {
+        margin: 7px 0;
+        i {
+          color: green;
+        }
+      }
+      .happyUserText {
+        color: rgba(0, 0, 0, 0.6);
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .happyCustomers {
+    .happyCustomers__wrapper-top {
+      .happyCustomers__title {
+        font-size: 38px;
+      }
+    }
+  }
+}
+
+// subscribe section (small)
+
+.subscribe {
+  margin-top: 30px;
+  .subscribe__wrapper {
+    background-color: black;
+    padding: 30px;
+    color: white;
+    border-radius: 20px;
+    @include d-flex(30px, space-between);
+    .subscribe__title {
+      font-family: "Anton", sans-serif;
+      font-size: 40px;
+      letter-spacing: 4px;
+    }
+    .subscribe__second {
+      width: 40%;
+      #subscribeUser {
+        width: 100%;
+        @include d-flex(10px, center);
+        flex-direction: column;
+        .subscribeInpWrap {
+          width: 100%;
+          position: relative;
+          #subscribeInput {
+            width: 100%;
+            padding: 10px 10px 10px 40px;
+            border-radius: 30px;
+            background-color: $white;
+            border: none;
+            outline: none;
+          }
+
+          .bi {
+            position: absolute;
+            left: 10px;
+            top: calc(50% - 10px);
+            z-index: 1;
+            color: black;
+          }
+        }
+        button {
+          width: 100%;
+          padding: 10px;
+          border-radius: 30px;
+          font-weight: 600;
+          color: black;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .subscribe {
+    .subscribe__wrapper {
+      flex-direction: column;
+
+      .subscribe__second {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .subscribe {
+    .subscribe__wrapper {
+      .subscribe__title {
+        font-size: 30px;
+      }
+    }
+  }
+}
