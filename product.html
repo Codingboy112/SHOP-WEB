@@ -10,13 +10,16 @@
       integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
       crossorigin="anonymous"
     />
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
     />
-    <link rel="stylesheet" href="./css/products.css"  />
+    <link rel="stylesheet" href="./css/products.css" />
   </head>
   <body>
+    <!-- header -->
+
     <header class="header">
       <div class="header__wrapper-top__color">
         <div class="container">
@@ -93,203 +96,201 @@
             </div>
             <div class="offcanvas-body small">
               <div class="first__filter">
-              <div class="filter__smallWrap">
-                <h5 class="filters__title">Filters</h5>
-                <i
-                  class="bi bi-sliders2-vertical"
-                  class="btn btn-primary"
-                  type="button"
-                  data-bs-toggle="offcanvas"
-                  data-bs-target="#offcanvasBottom"
-                  aria-controls="offcanvasBottom"
-                ></i>
-              </div>
-              <hr />
-              <div class="filter__dressType">
-                <div class="dressTypes">
-                  <p class="dressName">T-shirt</p>
-                  <i class="bi bi-chevron-compact-right"></i>
+                <div class="filter__smallWrap">
+                  <h5 class="filters__title">Filters</h5>
+                  <i class="bi bi-sliders2-vertical"></i>
                 </div>
-                <div class="dressTypes">
-                  <p class="dressName">Shorts</p>
-                  <i class="bi bi-chevron-compact-right"></i>
-                </div>
-                <div class="dressTypes">
-                  <p class="dressName">Shirts</p>
-                  <i class="bi bi-chevron-compact-right"></i>
-                </div>
-                <div class="dressTypes">
-                  <p class="dressName">Hoodie</p>
-                  <i class="bi bi-chevron-compact-right"></i>
-                </div>
-                <div class="dressTypes">
-                  <p class="dressName">Jeans</p>
-                  <i class="bi bi-chevron-compact-right"></i>
-                </div>
-              </div>
-              <hr />
-              <div class="filter__productsRange">
-                <div class="dropdown">
-                  <div class="dropdown__commands">
-                    <h5>Price</h5>
-                    <i class="bi bi-chevron-down dropdownChanger"></i>
+                <hr />
+                <div class="filter__dressType">
+                  <div class="dressTypes">
+                    <p class="dressName">T-shirt</p>
+                    <i class="bi bi-chevron-compact-right"></i>
                   </div>
-                  <div class="dropdown__Filter">
-                    <input
-                      type="range"
-                      class="rangePriceFilter"
-                      min="0"
-                      max="2000"
-                      value="1000"
-                    />
-                    <p class="rangePriceValShow">Maximum Price: 2000$</p>
+                  <div class="dressTypes">
+                    <p class="dressName">Shorts</p>
+                    <i class="bi bi-chevron-compact-right"></i>
+                  </div>
+                  <div class="dressTypes">
+                    <p class="dressName">Shirts</p>
+                    <i class="bi bi-chevron-compact-right"></i>
+                  </div>
+                  <div class="dressTypes">
+                    <p class="dressName">Hoodie</p>
+                    <i class="bi bi-chevron-compact-right"></i>
+                  </div>
+                  <div class="dressTypes">
+                    <p class="dressName">Jeans</p>
+                    <i class="bi bi-chevron-compact-right"></i>
                   </div>
                 </div>
-              </div>
-              <hr />
-              <div class="filter__productsColor">
-                <div class="dropdown">
-                  <div class="dropdown__commands">
-                    <h5>Colors</h5>
-                    <i class="bi bi-chevron-down dropdownChanger"></i>
-                  </div>
-                  <div class="dropdown__Filter">
-                    <!-- Code here -->
-                    <div class="colors__wrapper">
+                <hr />
+                <div class="filter__productsRange">
+                  <div class="dropdown">
+                    <div class="dropdown__commands">
+                      <h5>Price</h5>
+                      <i class="bi bi-chevron-down dropdownChanger"></i>
+                    </div>
+                    <div class="dropdown__Filter">
                       <input
-                        type="radio"
-                        name="sameColor"
-                        value="blue"
-                        class="colorIn colorBlue"
+                        type="range"
+                        class="rangePriceFilter"
+                        min="0"
+                        max="2000"
+                        value="1000"
                       />
-                      <input
-                        type="radio"
-                        name="sameColor"
-                        value="red"
-                        class="colorIn colorRed"
-                      />
-                      <input
-                        type="radio"
-                        name="sameColor"
-                        value="aqua"
-                        class="colorIn colorAqua"
-                      />
-                      <input
-                        type="radio"
-                        name="sameColor"
-                        value="orange"
-                        class="colorIn colorOrange"
-                      />
-                      <input
-                        type="radio"
-                        name="sameColor"
-                        value="aquamarine"
-                        class="colorIn colorAquamarine"
-                      />
-                      <input
-                        type="radio"
-                        name="sameColor"
-                        value="purple"
-                        class="colorIn colorPurple"
-                      />
-                      <input
-                        type="radio"
-                        name="sameColor"
-                        value="black"
-                        class="colorIn colorBlack"
-                      />
-                      <input
-                        type="radio"
-                        name="sameColor"
-                        value="pink"
-                        class="colorIn colorPink"
-                      />
+                      <p class="rangePriceValShow">Maximum Price: 2000$</p>
                     </div>
                   </div>
                 </div>
-              </div>
-              <hr />
-              <div class="filter__productsSize">
-                <div class="dropdown">
-                  <div class="dropdown__commands">
-                    <h5>Size</h5>
-                    <i class="bi bi-chevron-down dropdownChanger"></i>
+                <hr />
+                <div class="filter__productsColor">
+                  <div class="dropdown">
+                    <div class="dropdown__commands">
+                      <h5>Colors</h5>
+                      <i class="bi bi-chevron-down dropdownChanger"></i>
+                    </div>
+                    <div class="dropdown__Filter">
+                      <!-- Code here -->
+                      <div class="colors__wrapper">
+                        <input
+                          type="radio"
+                          name="sameColor"
+                          value="blue"
+                          class="colorIn colorBlue"
+                        />
+                        <input
+                          type="radio"
+                          name="sameColor"
+                          value="red"
+                          class="colorIn colorRed"
+                        />
+                        <input
+                          type="radio"
+                          name="sameColor"
+                          value="aqua"
+                          class="colorIn colorAqua"
+                        />
+                        <input
+                          type="radio"
+                          name="sameColor"
+                          value="orange"
+                          class="colorIn colorOrange"
+                        />
+                        <input
+                          type="radio"
+                          name="sameColor"
+                          value="aquamarine"
+                          class="colorIn colorAquamarine"
+                        />
+                        <input
+                          type="radio"
+                          name="sameColor"
+                          value="purple"
+                          class="colorIn colorPurple"
+                        />
+                        <input
+                          type="radio"
+                          name="sameColor"
+                          value="black"
+                          class="colorIn colorBlack"
+                        />
+                        <input
+                          type="radio"
+                          name="sameColor"
+                          value="pink"
+                          class="colorIn colorPink"
+                        />
+                      </div>
+                    </div>
                   </div>
-                  <div class="dropdown__Filter">
-                    <div class="size__divs_wrapper">
+                </div>
+                <hr />
+                <div class="filter__productsSize">
+                  <div class="dropdown">
+                    <div class="dropdown__commands">
+                      <h5>Size</h5>
+                      <i class="bi bi-chevron-down dropdownChanger"></i>
+                    </div>
+                    <div class="dropdown__Filter">
                       <div class="size__divs_wrapper">
-                        <label>
-                          <input type="checkbox" />
-                          <span class="sizeCheckBox">XX-Small</span>
-                        </label>
-                        <label>
-                          <input type="checkbox" />
-                          <span class="sizeCheckBox">X-Small</span>
-                        </label>
-                        <label>
-                          <input type="checkbox" />
-                          <span class="sizeCheckBox">Small</span>
-                        </label>
-                        <label>
-                          <input type="checkbox" />
-                          <span class="sizeCheckBox">Medium</span>
-                        </label>
-                        <label>
-                          <input type="checkbox" />
-                          <span class="sizeCheckBox">Large</span>
-                        </label>
-                        <label>
-                          <input type="checkbox" />
-                          <span class="sizeCheckBox">X-Large</span>
-                        </label>
-                        <label>
-                          <input type="checkbox" />
-                          <span class="sizeCheckBox">XX-Large</span>
-                        </label>
-                        <label>
-                          <input type="checkbox" />
-                          <span class="sizeCheckBox">3X-Large</span>
-                        </label>
-                        <label>
-                          <input type="checkbox" />
-                          <span class="sizeCheckBox">4X-Large</span>
-                        </label>
+                        <div class="size__divs_wrapper">
+                          <label>
+                            <input type="checkbox" />
+                            <span class="sizeCheckBox">XX-Small</span>
+                          </label>
+                          <label>
+                            <input type="checkbox" />
+                            <span class="sizeCheckBox">X-Small</span>
+                          </label>
+                          <label>
+                            <input type="checkbox" />
+                            <span class="sizeCheckBox">Small</span>
+                          </label>
+                          <label>
+                            <input type="checkbox" />
+                            <span class="sizeCheckBox">Medium</span>
+                          </label>
+                          <label>
+                            <input type="checkbox" />
+                            <span class="sizeCheckBox">Large</span>
+                          </label>
+                          <label>
+                            <input type="checkbox" />
+                            <span class="sizeCheckBox">X-Large</span>
+                          </label>
+                          <label>
+                            <input type="checkbox" />
+                            <span class="sizeCheckBox">XX-Large</span>
+                          </label>
+                          <label>
+                            <input type="checkbox" />
+                            <span class="sizeCheckBox">3X-Large</span>
+                          </label>
+                          <label>
+                            <input type="checkbox" />
+                            <span class="sizeCheckBox">4X-Large</span>
+                          </label>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <hr />
-              <div class="filter__productsStyle">
-                <div class="dropdown">
-                  <div class="dropdown__commands">
-                    <h5>Dress Style</h5>
-                    <i class="bi bi-chevron-down dropdownChanger"></i>
-                  </div>
-                  <div class="dropdown__Filter">
-                    <!-- Code -->
-                    <div class="filter__dressStyles">
-                      <div class="dress__style">
-                        <p class="dress__style_title">Casual</p>
-                        <i class="bi bi-chevron-right"></i>
-                      </div>
-                      <div class="dress__style">
-                        <p class="dress__style_title">Formal</p>
-                        <i class="bi bi-chevron-right"></i>
-                      </div>
-                      <div class="dress__style">
-                        <p class="dress__style_title">Party</p>
-                        <i class="bi bi-chevron-right"></i>
-                      </div>
-                      <div class="dress__style">
-                        <p class="dress__style_title">Gym</p>
-                        <i class="bi bi-chevron-right"></i>
+                <hr />
+                <div class="filter__productsStyle">
+                  <div class="dropdown">
+                    <div class="dropdown__commands">
+                      <h5>Dress Style</h5>
+                      <i class="bi bi-chevron-down dropdownChanger"></i>
+                    </div>
+                    <div class="dropdown__Filter">
+                      <!-- Code -->
+                      <div class="filter__dressStyles">
+                        <div class="dress__style">
+                          <p class="dress__style_title">All</p>
+                          <i class="bi bi-chevron-right"></i>
+                        </div>
+                        <div class="dress__style">
+                          <p class="dress__style_title">Casual</p>
+                          <i class="bi bi-chevron-right"></i>
+                        </div>
+                        <div class="dress__style">
+                          <p class="dress__style_title">Formal</p>
+                          <i class="bi bi-chevron-right"></i>
+                        </div>
+                        <div class="dress__style">
+                          <p class="dress__style_title">Party</p>
+                          <i class="bi bi-chevron-right"></i>
+                        </div>
+                        <div class="dress__style">
+                          <p class="dress__style_title">Gym</p>
+                          <i class="bi bi-chevron-right"></i>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
+                <button class="applyFilter">Apply Filter</button>
               </div>
-            </div>
             </div>
           </div>
           <div class="navigatorDiv">
@@ -303,14 +304,7 @@
             <div class="first__filter">
               <div class="filter__smallWrap">
                 <h5 class="filters__title">Filters</h5>
-                <i
-                  class="bi bi-sliders2-vertical"
-                  class="btn btn-primary"
-                  type="button"
-                  data-bs-toggle="offcanvas"
-                  data-bs-target="#offcanvasBottom"
-                  aria-controls="offcanvasBottom"
-                ></i>
+                <i class="bi bi-sliders2-vertical"></i>
               </div>
               <hr />
               <div class="filter__dressType">
@@ -478,6 +472,10 @@
                     <!-- Code -->
                     <div class="filter__dressStyles">
                       <div class="dress__style">
+                        <p class="dress__style_title">All</p>
+                        <i class="bi bi-chevron-right"></i>
+                      </div>
+                      <div class="dress__style">
                         <p class="dress__style_title">Casual</p>
                         <i class="bi bi-chevron-right"></i>
                       </div>
@@ -496,6 +494,34 @@
                     </div>
                   </div>
                 </div>
+              </div>
+              <button class="applyFilter">Apply Filter</button>
+            </div>
+            <div class="second__products">
+              <div class="topper__products__page">
+                <div class="products__top-sort">
+                  <h3 class="products__sortTitle" id="changingType">Casual</h3>
+                  <div class="topSorts">
+                    <p class="displayCurrentProducts">
+                      Showing 1-10 of 100 products
+                    </p>
+                    <p class="sortText">
+                      Sort by:
+                      <select name="" id="selectedSort">
+                        <option value="Most popular">Most popular</option>
+                        <option value="Top selling">Top selling</option>
+                        <option value="Price">Price</option>
+                      </select>
+                    </p>
+                  </div>
+                </div>
+                <i
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasBottom"
+                  aria-controls="offcanvasBottom"
+                  class="bi bi-sliders2-vertical"
+                >
+                </i>
               </div>
             </div>
           </div>

@@ -5,6 +5,10 @@
     color: white;
     .header__wrapper-top {
       @include d-flex(0, space-between);
+      align-items: center;
+      p{
+            margin: 0 !important;
+      }
       .bi {
         font-size: 18px;
       }

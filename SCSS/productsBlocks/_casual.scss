@@ -9,6 +9,8 @@
   .products__wrapper {
     margin-top: 50px;
     @include d-flex(10px, space-between);
+    align-items: start;
+    
 
     // filter Div Styles
 
@@ -156,6 +158,26 @@
     // filter end
 
     // main products page start
+    .second__products{
+      width: 70%;
+      .topper__products__page{
+        .bi{
+          display: none;
+        }
+      }
+      .products__top-sort{
+        @include d-flex(10px, space-between);
+        .topSorts{
+          @include d-flex(15px, start);
+          select{
+            border: none;
+            font-weight: 600;
+            outline: none;
+          }
+        }
+
+      }
+    }
   }
 
   .dropdown {
@@ -174,10 +196,43 @@
   }
 }
 
+
+
+
+@media only screen and (max-width: 992px) {
+  .products{
+    .products__wrapper{
+      .second__products{
+        .products__top-sort{
+          .topSorts{
+            .sortText{
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
 @media only screen and (max-width: 768px) {
   .products {
     .products__wrapper {
-      .first__filter {
+      .second__products{
+        width: 100%;
+        .topper__products__page{
+          @include d-flex(10px, space-between);
+          .bi{
+            display: inline-block;
+          }
+        }
+          .products__top-sort{
+            justify-content: start;
+              // .displayCurrentProducts{
+                
+              // }
+          }
       }
     }
   }
@@ -315,7 +370,6 @@
       }
     }
 
-
     .filter__productsStyle {
       margin: 10px 0;
       .filter__dressStyles {
@@ -330,10 +384,20 @@
 }
 
 
+.applyFilter {
+  padding: 10px 25px;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  width: 100%;
+  margin-top: 20px;
+}
+
 @media only screen and (max-width: 768px) {
-  .products{
-    .products__wrapper{
-      .first__filter{
+  .products {
+    .products__wrapper {
+      .first__filter {
         display: none;
       }
     }

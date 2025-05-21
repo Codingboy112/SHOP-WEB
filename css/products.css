@@ -11,6 +11,10 @@ a {
   color: black;
 }
 
+p {
+  margin: 0;
+}
+
 button {
   cursor: pointer;
 }
@@ -62,6 +66,10 @@ body {
   align-items: center;
   gap: 0;
   justify-content: space-between;
+  align-items: center;
+}
+.header .header__wrapper-top__color .header__wrapper-top p {
+  margin: 0 !important;
 }
 .header .header__wrapper-top__color .header__wrapper-top .bi {
   font-size: 18px;
@@ -169,6 +177,7 @@ body {
   align-items: center;
   gap: 10px;
   justify-content: space-between;
+  align-items: start;
 }
 .products .products__wrapper .first__filter {
   width: 30%;
@@ -301,6 +310,29 @@ body {
   margin-top: 10px;
   color: rgba(0, 0, 0, 0.6);
 }
+.products .products__wrapper .second__products {
+  width: 70%;
+}
+.products .products__wrapper .second__products .topper__products__page .bi {
+  display: none;
+}
+.products .products__wrapper .second__products .products__top-sort {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+.products .products__wrapper .second__products .products__top-sort .topSorts {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: start;
+}
+.products .products__wrapper .second__products .products__top-sort .topSorts select {
+  border: none;
+  font-weight: 600;
+  outline: none;
+}
 .products .dropdown .dropdown__commands {
   display: flex;
   align-items: center;
@@ -317,6 +349,28 @@ body {
   transition: all 0.1s;
 }
 
+@media only screen and (max-width: 992px) {
+  .products .products__wrapper .second__products .products__top-sort .topSorts .sortText {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .products .products__wrapper .second__products {
+    width: 100%;
+  }
+  .products .products__wrapper .second__products .topper__products__page {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  .products .products__wrapper .second__products .topper__products__page .bi {
+    display: inline-block;
+  }
+  .products .products__wrapper .second__products .products__top-sort {
+    justify-content: start;
+  }
+}
 #offcanvasBottom {
   height: 88vh;
   border-top-left-radius: 20px;
@@ -452,6 +506,16 @@ body {
   justify-content: space-between;
   margin-top: 10px;
   color: rgba(0, 0, 0, 0.6);
+}
+
+.applyFilter {
+  padding: 10px 25px;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  width: 100%;
+  margin-top: 20px;
 }
 
 @media only screen and (max-width: 768px) {
