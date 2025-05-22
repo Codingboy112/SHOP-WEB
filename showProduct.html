@@ -67,18 +67,426 @@
     </header>
 
     <main class="main">
-    <div class="container">
-          <section class="productShow">
-        <div class="navigatorDiv">
-          <a href="./index.html">Home</a> <i class="bi bi-chevron-right"></i>
-          <p class="navigatorChanging">Casual</p>
-        </div>
-        <div class="productShow__wrapper">
-          <div class="first__show"></div>
-        </div>
-      </section>
-    </div>
+      <div class="container">
+        <section class="productShow">
+          <div class="navigatorDiv">
+            <a href="./index.html">Home</a> <i class="bi bi-chevron-right"></i>
+            <p class="navigatorChanging">Product</p>
+          </div>
+          <div class="productShow__wrapper">
+            <div class="first__show">
+              <div class="product__imageWrapper">
+                <div class="first__imageNavigators">
+                  <img src="images/1.jpg" class="navigator__image" alt="" />
+                  <img src="images/1.jpg" class="navigator__image" alt="" />
+                  <img src="./images/1.jpg" class="navigator__image" alt="" />
+                </div>
+                <div class="second__imageNavigators">
+                  <img src="./images/1.jpg" class="fullImage" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="second__show">
+              <h1 class="product__title">One Life Graphic T-shirt</h1>
+              <div class="product__rating">
+                <div class="product__stars">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                </div>
+                <p class="product__ratingText">4.5/<span>5</span></p>
+              </div>
+              <div class="product__pricing">
+                <p class="product__discountPrice">$260</p>
+                <del class="product__realPrice"><p>$300</p></del>
+                <span class="product__discount">-40%</span>
+              </div>
+              <p class="product__about">
+                This graphic t-shirt which is perfect for any occasion. Crafted
+                from a soft and breathable fabric, it offers superior comfort
+                and style.
+              </p>
+              <hr class="fullHR" />
+              <div class="product__colors">
+                <p class="productColor__title">Select Colors</p>
+                <div class="colors__wrapper">
+                  <input
+                    type="radio"
+                    name="sameColor"
+                    value="blue"
+                    class="colorIn colorBlue"
+                  />
+                  <input
+                    type="radio"
+                    name="sameColor"
+                    value="red"
+                    class="colorIn colorRed"
+                  />
+                  <input
+                    type="radio"
+                    name="sameColor"
+                    value="aqua"
+                    class="colorIn colorAqua"
+                  />
+                </div>
+              </div>
+              <hr class="fullHR" />
+              <div class="products__sizes">
+                <p class="product__sizeText">Choose Size</p>
+                <div class="filter__productsSize">
+                  <div class="size__divs_wrapper">
+                    <label>
+                      <input type="checkbox" class="checkboxInput" />
+                      <span class="sizeCheckBox">XX-Small</span>
+                    </label>
+                    <label>
+                      <input type="checkbox" />
+                      <span class="sizeCheckBox">X-Small</span>
+                    </label>
+                    <label>
+                      <input type="checkbox" />
+                      <span class="sizeCheckBox">Small</span>
+                    </label>
+                    <label>
+                      <input type="checkbox" />
+                      <span class="sizeCheckBox">Medium</span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="addCartWrapper">
+                <div class="product__cartCount">
+                  <button class="product__decrease">–</button>
+                  <p class="productCount">1</p>
+                  <button class="product__increase">+</button>
+                </div>
+                <div class="addCartWraperCover">
+                  <button class="buyCartButton">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="reviews">
+          <div class="reviews__wrapper-top">
+            <div class="pro__details">
+              <a href=""><p class="review__topperText">Product Details</p></a>
+            </div>
+            <div class="pro__rating">
+              <a href=""><p class="review__topperText">Rating & Reviews</p></a>
+            </div>
+            <div class="pro__faqs">
+              <a href=""><p class="review__topperText">FAQs</p></a>
+            </div>
+          </div>
+          <div class="reviews__wrapper-topper">
+            <div class="reviews__topperLeft">
+              <h2 class="reviewsTitle">
+                All Reviews <span class="reviewsNumber">(451)</span>
+              </h2>
+            </div>
+            <div class="reviews__topperRight">
+              <i class="bi bi-sliders2-vertical"></i>
+              <select name="" id="selectSortComment">
+                <option value="latest">Latest</option>
+                <option value="rating">Rating</option>
+              </select>
+              <button class="writeReview">Write a Review</button>
+            </div>
+          </div>
+          <div class="showReviews">
+            <div class="user__review">
+              <div class="userReview__rate">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </div>
+              <p class="user__reviewName">
+                Samantha D. <i class="bi bi-check-circle-fill"></i>
+              </p>
+              <p class="user__reviewText">
+                "I absolutely love this t-shirt! The design is unique and the
+                fabric feels so comfortable. As a fellow designer, I appreciate
+                the attention to detail. It's become my favorite go-to shirt."
+              </p>
+              <p class="user__reviewDate">Posted on August 14, 2023</p>
+            </div>
+            <div class="user__review">
+              <div class="userReview__rate">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </div>
+              <p class="user__reviewName">
+                Samantha D. <i class="bi bi-check-circle-fill"></i>
+              </p>
+              <p class="user__reviewText">
+                "I absolutely love this t-shirt! The design is unique and the
+                fabric feels so comfortable. As a fellow designer, I appreciate
+                the attention to detail. It's become my favorite go-to shirt."
+              </p>
+              <p class="user__reviewDate">Posted on August 14, 2023</p>
+            </div>
+            <div class="user__review">
+              <div class="userReview__rate">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </div>
+              <p class="user__reviewName">
+                Samantha D. <i class="bi bi-check-circle-fill"></i>
+              </p>
+              <p class="user__reviewText">
+                "I absolutely love this t-shirt! The design is unique and the
+                fabric feels so comfortable. As a fellow designer, I appreciate
+                the attention to detail. It's become my favorite go-to shirt."
+              </p>
+              <p class="user__reviewDate">Posted on August 14, 2023</p>
+            </div>
+            <div class="user__review">
+              <div class="userReview__rate">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </div>
+              <p class="user__reviewName">
+                Samantha D. <i class="bi bi-check-circle-fill"></i>
+              </p>
+              <p class="user__reviewText">
+                "I absolutely love this t-shirt! The design is unique and the
+                fabric feels so comfortable. As a fellow designer, I appreciate
+                the attention to detail. It's become my favorite go-to shirt."
+              </p>
+              <p class="user__reviewDate">Posted on August 14, 2023</p>
+            </div>
+            <div class="user__review">
+              <div class="userReview__rate">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </div>
+              <p class="user__reviewName">
+                Samantha D. <i class="bi bi-check-circle-fill"></i>
+              </p>
+              <p class="user__reviewText">
+                "I absolutely love this t-shirt! The design is unique and the
+                fabric feels so comfortable. As a fellow designer, I appreciate
+                the attention to detail. It's become my favorite go-to shirt."
+              </p>
+              <p class="user__reviewDate">Posted on August 14, 2023</p>
+            </div>
+            <div class="user__review">
+              <div class="userReview__rate">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </div>
+              <p class="user__reviewName">
+                Samantha D. <i class="bi bi-check-circle-fill"></i>
+              </p>
+              <p class="user__reviewText">
+                "I absolutely love this t-shirt! The design is unique and the
+                fabric feels so comfortable. As a fellow designer, I appreciate
+                the attention to detail. It's become my favorite go-to shirt."
+              </p>
+              <p class="user__reviewDate">Posted on August 14, 2023</p>
+            </div>
+          </div>
+          <center>
+            <button class="showMoreReview">Load More Reviews</button>
+          </center>
+        </section>
+        <section class="suggested">
+          <h1 class="suggested__title">YOU MIGHT ALSO LIKE</h1>
+          <div class="suggested__wrapper">
+            <div class="suggested__product">
+              <img width="100%" src="images/2.jpg" alt="" />
+              <p class="suggestedProduct__name">Polo with Contrast Trims</p>
+              <div class="suggestedProduct__rating">
+                <div class="product__stars">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <p class="productRatingText">4.0/<span>5</span></p>
+              </div>
+              <div class="suggested__productPricing">
+                <p class="discointPrice">$212</p>
+                <del class="realPrice"><p>$242</p></del>
+                <span class="discountPercent">-20%</span>
+              </div>
+            </div>
+            <div class="suggested__product">
+              <img src="images/10.jpg" alt="" />
+              <p class="suggestedProduct__name">Polo with Contrast Trims</p>
+              <div class="suggestedProduct__rating">
+                <div class="product__stars">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <p class="productRatingText">4.0/<span>5</span></p>
+              </div>
+              <div class="suggested__productPricing">
+                <p class="discointPrice">$212</p>
+              </div>
+            </div>
+            <div class="suggested__product">
+              <img src="images/12.jpg" alt="" />
+              <p class="suggestedProduct__name">Polo with Contrast Trims</p>
+              <div class="suggestedProduct__rating">
+                <div class="product__stars">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <p class="productRatingText">4.0/<span>5</span></p>
+              </div>
+              <div class="suggested__productPricing">
+                <p class="discointPrice">$212</p>
+              </div>
+            </div>
+            <div class="suggested__product">
+              <img src="images/3.jpg" alt="" />
+              <p class="suggestedProduct__name">Polo with Contrast Trims</p>
+              <div class="suggestedProduct__rating">
+                <div class="product__stars">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <p class="productRatingText">4.0/<span>5</span></p>
+              </div>
+              <div class="suggested__productPricing">
+                <p class="discointPrice">$212</p>
+                <del class="realPrice"><p>$242</p></del>
+                <span class="discountPercent">-20%</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="subscribe">
+          <div class="container">
+            <div class="subscribe__wrapper">
+              <div class="subscribe__first">
+                <h1 class="subscribe__title">
+                  STAY UPTO DATE ABOUT <br />
+                  OUR LATEST OFFERS
+                </h1>
+              </div>
+              <div class="subscribe__second">
+                <form action="" id="subscribeUser">
+                  <div class="subscribeInpWrap">
+                    <input
+                      type="text"
+                      id="subscribeInput"
+                      placeholder="Enter your email adress"
+                    />
+                    <span><i class="bi bi-envelope"></i></span>
+                  </div>
+                  <button type="submit">Subscribe to Newsletter</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
+
+    <!-- main end -->
+
+
+    <!-- footer start -->
+        <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__first">
+            <img src="assets/SHOP.CO.svg" alt="" />
+            <p class="footer__firstText">
+              We have clothes that suits your style and which you’re proud to
+              wear. From women to men.
+            </p>
+            <div class="footer__firstSocial">
+              <i class="bi bi-twitter"></i>
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-instagram"></i>
+              <i class="bi bi-github"></i>
+            </div>
+          </div>
+          <div class="footer__second footer__LinksFather">
+            <p class="footer__linksText">COMPANY</p>
+            <a href="" class="footer__link">About</a>
+            <a href="" class="footer__link">Features</a>
+            <a href="" class="footer__link">Works</a>
+            <a href="" class="footer__link">Career</a>
+          </div>
+          <div class="footer__third footer__LinksFather">
+            <p class="footer__linksText">HELP</p>
+            <a href="" class="footer__link">Customer support</a>
+            <a href="" class="footer__link">Delievery Details</a>
+            <a href="" class="footer__link">Ters & Conditions</a>
+            <a href="" class="footer__link">Privacy Policy</a>
+          </div>
+          <div class="footer__fourth footer__LinksFather">
+            <p class="footer__linksText">FAQ</p>
+            <a href="" class="footer__link">Account</a>
+            <a href="" class="footer__link">Manage Delieveries</a>
+            <a href="" class="footer__link">Orders</a>
+            <a href="" class="footer__link">Payments</a>
+          </div>
+          <div class="footer__fifth footer__LinksFather">
+            <p class="footer__linksText">RESOURCES</p>
+            <a href="" class="footer__link">Free eBooks</a>
+            <a href="" class="footer__link">Devlopment Tutorial</a>
+            <a href="" class="footer__link">How to - Blog</a>
+            <a href="" class="footer__link">Youtube Playlist</a>
+          </div>
+        </div>
+        <hr class="footer__line" />
+      </div>
+      <div class="container">
+        <div class="footer__bottom">
+          <p class="footer__text">Shop.co © 2000-2023, All Rights Reserved</p>
+          <div class="footer__cards">
+            <a href="https://cis.visa.com/visa-in-uzbekistan.html"
+              ><img src="assets/Badge.svg" alt=""
+            /></a>
+            <a href="https://www.mastercard.us/en-us.html"
+              ><img src="assets/Badge-1.svg" alt=""
+            /></a>
+            <a href="https://www.mastercard.us/en-us.html"
+              ><img src="assets/Badge-2.svg" alt=""
+            /></a>
+            <a href="https://www.mastercard.us/en-us.html"
+              ><img src="assets/Badge-3.svg" alt=""
+            /></a>
+            <a href="https://www.mastercard.us/en-us.html"
+              ><img src="assets/Badge-4.svg" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- footer end -->
   </body>
   <script src="JS/main.js"></script>
 </html>

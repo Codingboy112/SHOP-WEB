@@ -1,0 +1,77 @@
+.suggested {
+  .suggested__title {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-family: "Anton", sans-serif;
+  }
+
+  // products
+
+  .suggested__wrapper {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    .suggested__product {
+      img {
+        width: 100%;
+      }
+      .suggestedProduct__name {
+        font-weight: 600;
+        margin: 5px 0;
+      }
+      .suggestedProduct__rating {
+        @include d-flex(10px, start);
+        margin-bottom: 15px;
+        .product__stars {
+          color: $secondary;
+        }
+        .productRatingText {
+          span {
+            color: $darker;
+          }
+        }
+      }
+      .suggested__productPricing {
+        @include d-flex(15px, start);
+        .discointPrice {
+          font-size: larger;
+          font-weight: 700;
+        }
+        .realPrice {
+          color: $darker;
+          font-size: larger;
+          font-weight: 700;
+        }
+        .discountPercent{
+            padding: 7px 17px;
+            border-radius: 20px;
+            background-color: rgba(255, 0, 0, 0.151);
+            color: red;
+        }
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .suggested{
+        .suggested__wrapper{
+            grid-template-columns: repeat(2, 1fr);
+            .suggested__product:nth-child(3),
+            .suggested__product:nth-child(4){
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 407px) {
+    .suggested{
+        .suggested__wrapper{
+            grid-template-columns: 1fr;
+        }
+    }
+}

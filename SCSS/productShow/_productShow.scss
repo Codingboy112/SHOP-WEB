@@ -1,0 +1,198 @@
+.productShow {
+  .navigatorDiv {
+    @include d-flex(4px, start);
+  }
+
+  .productShow__wrapper {
+    @include d-flex(20px, space-between);
+    margin-top: 30px;
+    align-items: start;
+    .first__show {
+      width: 50%;
+      .product__imageWrapper {
+        @include d-flex(20px, space-between);
+        .first__imageNavigators {
+          width: 24%;
+          .navigator__image {
+            width: 100%;
+            margin-bottom: 5px;
+            border-radius: 20px;
+          }
+          .navigator__image:hover {
+            border: 1px solid black;
+          }
+        }
+        .second__imageNavigators {
+          width: 76%;
+          .fullImage {
+            width: 100%;
+          }
+        }
+      }
+    }
+    .second__show {
+      width: 50%;
+      @include d-flex(10px, space-between);
+      flex-direction: column;
+      align-items: start;
+      .product__title {
+        font-family: "Anton", sans-serif;
+        letter-spacing: 4px;
+        font-size: 40px;
+      }
+      .product__rating {
+        @include d-flex(8px, start);
+        .product__stars {
+          color: $secondary;
+        }
+        span {
+          color: $darker;
+        }
+      }
+      .product__about {
+        color: $darker;
+        margin-bottom: 10px;
+      }
+      .product__pricing {
+        margin: 14px 0;
+        @include d-flex(10px, start);
+        .product__discountPrice {
+          font-size: 23px;
+          font-weight: 600;
+        }
+        .product__realPrice {
+          font-size: 23px;
+          font-weight: 600;
+          color: $darker;
+        }
+        .product__discount {
+          padding: 5px 16px;
+          border-radius: 15px;
+          color: red;
+          background-color: rgba(255, 0, 0, 0.2);
+        }
+      }
+      .product__colors {
+        margin: 10px 0;
+        .productColor__title {
+          color: $darker;
+        }
+        .colors__wrapper {
+          @include d-flex(4px, start);
+        }
+        .colorIn {
+          appearance: none;
+          -webkit-appearance: none;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          cursor: pointer;
+          margin: 5px;
+          transition: box-shadow 0.2s ease, border 0.2s ease;
+        }
+
+        .colorIn:checked {
+          box-shadow: 0 0 0 1px white, 0 0 0 3px black;
+          border-color: white;
+        }
+
+        .colorBlue {
+          background-color: black;
+        }
+        .colorRed {
+          background-color: darkslategrey;
+        }
+        .colorAqua {
+          background-color: grey;
+        }
+      }
+      .products__sizes {
+        .product__sizeText {
+          color: $darker;
+          margin: 10px 0 5px 0;
+        }
+        .filter__productsSize {
+          .size__divs_wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            input[type="checkbox"] {
+              display: none;
+            }
+
+            .sizeCheckBox {
+              display: inline-block;
+              padding: 8px 11px;
+              margin: 4px 0;
+              border-radius: 20px;
+              font-size: 14px;
+              background-color: #f0f0f0;
+              color: #888;
+              cursor: pointer;
+              transition: all 0.2s ease;
+              user-select: none;
+            }
+
+            input[type="checkbox"]:checked + .sizeCheckBox {
+              background-color: black;
+              color: white;
+            }
+          }
+        }
+      }
+      .addCartWrapper {
+        margin-top: 20px;
+        @include d-flex(10px, start);
+        width: 100%;
+        .product__cartCount {
+          width: 140px;
+          @include d-flex(10px, space-between);
+          border-radius: 30px;
+          background-color: $darkGray;
+          padding: 10px 10px;
+
+          .product__decrease {
+            width: 20%;
+            border: none;
+            font-size: larger;
+            background-color: transparent;
+          }
+          .product__increase {
+            width: 20%;
+            font-size: 20px;
+            border: none;
+            background-color: transparent;
+          }
+        }
+        .addCartWraperCover {
+          width: 100%;
+          .buyCartButton {
+            padding: 13px;
+            width: 100%;
+            background-color: $black;
+            color: $white;
+            border-radius: 20px;
+            border: none;
+          }
+        }
+      }
+      .fullHR{
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .productShow {
+    .productShow__wrapper {
+      flex-direction: column;
+      .first__show {
+        width: 100%;
+      }
+      .second__show {
+        width: 100%;
+      }
+    }
+  }
+}
