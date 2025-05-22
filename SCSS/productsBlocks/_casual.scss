@@ -182,18 +182,12 @@
           gap: 20px;
         grid-template-columns: repeat(3, 1fr);
           .top-selling__product {
-            .cover__image{
-              background-color: $darkGray;
-              border-radius: 10px;
-              padding: 20px;
+         
               img {
                 width: 100%;
               }
-            }
-            img{
-              width: 100%;
-            }
-
+            
+        
             .top-selling__name {
               font-weight: 700;
               margin: 10px 0;

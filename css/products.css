@@ -339,14 +339,6 @@ body {
   gap: 20px;
   grid-template-columns: repeat(3, 1fr);
 }
-.products .products__wrapper .second__products .bottom__products__main .main__products__wrapper .top-selling__product .cover__image {
-  background-color: rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  padding: 20px;
-}
-.products .products__wrapper .second__products .bottom__products__main .main__products__wrapper .top-selling__product .cover__image img {
-  width: 100%;
-}
 .products .products__wrapper .second__products .bottom__products__main .main__products__wrapper .top-selling__product img {
   width: 100%;
 }

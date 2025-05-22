@@ -1189,30 +1189,28 @@ body {
     left: 100px;
   }
 }
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 990px) {
   .sarvar__items_wrp {
     display: block;
-    padding-left: 120px;
+    place-items: center;
     margin-bottom: 100px;
   }
   .sarvar__head_p {
-    margin-left: 120px;
+    margin-left: 150px;
   }
   .sarvar__basket_items_wrp {
     margin-bottom: 50px;
-    margin-left: -80px;
   }
-  .sarvar__price_wrp {
-    margin-left: -20px;
+  .sarvar {
+    margin-bottom: 500px;
   }
 }
 @media only screen and (max-width: 480px) {
-  .sarvar__basket_items_wrp {
-    margin-left: -110px;
-    height: 335 px;
+  .sarvar {
+    margin-bottom: 500px;
   }
-  .sarvar__price_wrp {
-    margin-left: -65px;
+  .sarvar__basket_items_wrp {
+    height: 335px;
   }
   .sarvar__head_p {
     margin-left: 50px;

@@ -1008,112 +1008,112 @@ let products = [
       },
     ],
   },
-  {
-    id: 18,
-    title: "Twilight Party Shirt",
-    image: "./images/19.jpg",
-    rating: 4,
-    price: 130,
-    category: "Party",
-    about: "Bold shirt for bold personalities. Subtle textures that shimmer under the spotlight.",
-    discount: 0,
-    colors: ["darkorchid", "black", "indigo"],
-    sizes: ['Small', 'Medium', 'Large', 'X-large', 'XX-large'],
-    comments: [
-      {
-        user: "Samatha",
-        userRate: 4,
-        posted: "August 14, 2024",
-        comment: "I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. It's become my favorite go-to shirt.",
-      },
-      {
-        user: "Alex M.",
-        userRate: 5,
-        posted: "August 15, 2024",
-        comment: "The t-shirt exceeded my expectations! The colors are vibrant and the print quality is top-notch. Being a UI/UX designer myself, I'm quite picky about aesthetics, and this t-shirt definitely gets a thumbs up from me.",
-      },
-      {
-        user: "Samatha",
-        userRate: 5,
-        posted: "September 12, 2024",
-        comment: "This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every aspect of this shirt.",
-      },
-      {
-        user: "Samatha",
-        userRate: 4,
-        posted: "Feburary 29, 2024",
-        comment: "This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every aspect of this shirt.",
-      },
-      {
-        user: "Samatha",
-        userRate: 3,
-        posted: "January 27, 2024",
-        comment: "This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every aspect of this shirt.",
-      },
-      {
-        user: "Samatha",
-        userRate: 4,
-        posted: "May 21, 2024",
-        comment: "This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every aspect of this shirt.",
-      },
-    ],
-  },
-  {
-    id: 19,
-    title: "Metro Fit Tee",
-    image: "./images/20.jpg",
-    rating: 4,
-    price: 78,
-    category: "Casual",
-    about: "Designed for city lifestyle, this tee balances minimalism with bold confidence.",
-    discount: 10,
-    colors: ["darkcyan", "black", "darkslategray"],
-    sizes: ['Small', 'Medium', 'Large', 'X-large', 'XX-large'],
-     comments: [
-      {
-        user: "Samatha",
-        userRate: 4,
-        posted: "August 14, 2024",
-        comment:
-          "I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. It's become my favorite go-to shirt.",
-      },
-      {
-        user: "Alex M.",
-        userRate: 5,
-        posted: "August 15, 2024",
-        comment:
-          "The t-shirt exceeded my expectations! The colors are vibrant and the print quality is top-notch. Being a UI/UX designer myself, I'm quite picky about aesthetics, and this t-shirt definitely gets a thumbs up from me.",
-      },
-      {
-        user: "Samatha",
-        userRate: 5,
-        posted: "September 12, 2024",
-        comment:
-          "This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every aspect of this shirt.",
-      },
-      {
-        user: "Samatha",
-        userRate: 4,
-        posted: "Feburary 29, 2024",
-        comment:
-          "This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every aspect of this shirt.",
-      },
-      {
-        user: "Samatha",
-        userRate: 3,
-        posted: "January 27, 2024",
-        comment:
-          "This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every aspect of this shirt.",
-      },
-      {
-        user: "Samatha",
-        userRate: 4,
-        posted: "May 21, 2024",
-        comment:
-          "This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every aspect of this shirt.",
-      },
-    ],
-  },
+  // {
+  //   id: 18,
+  //   title: "Twilight Party Shirt",
+  //   image: "./images/19.jpg",
+  //   rating: 4,
+  //   price: 130,
+  //   category: "Party",
+  //   about: "Bold shirt for bold personalities. Subtle textures that shimmer under the spotlight.",
+  //   discount: 0,
+  //   colors: ["darkorchid", "black", "indigo"],
+  //   sizes: ['Small', 'Medium', 'Large', 'X-large', 'XX-large'],
+  //   comments: [
+  //     {
+  //       user: "Samatha",
+  //       userRate: 4,
+  //       posted: "August 14, 2024",
+  //       comment: "I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. It's become my favorite go-to shirt.",
+  //     },
+  //     {
+  //       user: "Alex M.",
+  //       userRate: 5,
+  //       posted: "August 15, 2024",
+  //       comment: "The t-shirt exceeded my expectations! The colors are vibrant and the print quality is top-notch. Being a UI/UX designer myself, I'm quite picky about aesthetics, and this t-shirt definitely gets a thumbs up from me.",
+  //     },
+  //     {
+  //       user: "Samatha",
+  //       userRate: 5,
+  //       posted: "September 12, 2024",
+  //       comment: "This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every aspect of this shirt.",
+  //     },
+  //     {
+  //       user: "Samatha",
+  //       userRate: 4,
+  //       posted: "Feburary 29, 2024",
+  //       comment: "This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every aspect of this shirt.",
+  //     },
+  //     {
+  //       user: "Samatha",
+  //       userRate: 3,
+  //       posted: "January 27, 2024",
+  //       comment: "This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every aspect of this shirt.",
+  //     },
+  //     {
+  //       user: "Samatha",
+  //       userRate: 4,
+  //       posted: "May 21, 2024",
+  //       comment: "This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every aspect of this shirt.",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 19,
+  //   title: "Metro Fit Tee",
+  //   image: "./images/20.jpg",
+  //   rating: 4,
+  //   price: 78,
+  //   category: "Casual",
+  //   about: "Designed for city lifestyle, this tee balances minimalism with bold confidence.",
+  //   discount: 10,
+  //   colors: ["darkcyan", "black", "darkslategray"],
+  //   sizes: ['Small', 'Medium', 'Large', 'X-large', 'XX-large'],
+  //    comments: [
+  //     {
+  //       user: "Samatha",
+  //       userRate: 4,
+  //       posted: "August 14, 2024",
+  //       comment:
+  //         "I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. It's become my favorite go-to shirt.",
+  //     },
+  //     {
+  //       user: "Alex M.",
+  //       userRate: 5,
+  //       posted: "August 15, 2024",
+  //       comment:
+  //         "The t-shirt exceeded my expectations! The colors are vibrant and the print quality is top-notch. Being a UI/UX designer myself, I'm quite picky about aesthetics, and this t-shirt definitely gets a thumbs up from me.",
+  //     },
+  //     {
+  //       user: "Samatha",
+  //       userRate: 5,
+  //       posted: "September 12, 2024",
+  //       comment:
+  //         "This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every aspect of this shirt.",
+  //     },
+  //     {
+  //       user: "Samatha",
+  //       userRate: 4,
+  //       posted: "Feburary 29, 2024",
+  //       comment:
+  //         "This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every aspect of this shirt.",
+  //     },
+  //     {
+  //       user: "Samatha",
+  //       userRate: 3,
+  //       posted: "January 27, 2024",
+  //       comment:
+  //         "This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every aspect of this shirt.",
+  //     },
+  //     {
+  //       user: "Samatha",
+  //       userRate: 4,
+  //       posted: "May 21, 2024",
+  //       comment:
+  //         "This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every aspect of this shirt.",
+  //     },
+  //   ],
+  // },
 ];
 
 
