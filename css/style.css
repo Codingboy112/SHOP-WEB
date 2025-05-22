@@ -1027,6 +1027,11 @@ body {
   background-color: black;
 }
 
+@media only screen and (max-width: 1400px) {
+  .item__describe_wrp {
+    margin-right: 0;
+  }
+}
 @media only screen and (max-width: 1280px) {
   .p4 {
     width: 230px;
@@ -1036,6 +1041,7 @@ body {
     margin-bottom: 500px;
     width: 300px;
     height: 375px;
+    padding-left: 30px;
   }
   #text {
     width: 155px;
@@ -1111,11 +1117,14 @@ body {
     width: 70px;
     height: 70px;
     border-radius: 10px;
+    margin-left: -170px;
   }
   .sarvar__basket_items_wrp {
     width: 400px;
     padding-left: 15px;
     position: relative;
+    height: 370px;
+    padding-left: 50px;
   }
   .product_describe_item1 {
     font-size: 13px;
@@ -1134,6 +1143,10 @@ body {
   .item__describe_wrp {
     margin-left: -10px;
   }
+  .item__describe_wrp3 {
+    margin-left: -10px;
+    margin-top: -30px;
+  }
   .line {
     width: 200px;
     height: 0;
@@ -1148,8 +1161,8 @@ body {
     left: 50px;
   }
   .trash3 {
-    top: -70px;
-    left: 120px;
+    top: -125px;
+    left: 50px;
   }
   .frame__wrp1 {
     left: 100px;
@@ -1158,5 +1171,56 @@ body {
     padding-top: 6px;
     top: -30px;
     font-size: 14px;
+  }
+  .frame__wrp2 {
+    top: -60px;
+    font-size: 14px;
+    left: 100px;
+    padding-top: 6px;
+    width: 80px;
+    height: 30px;
+  }
+  .frame__wrp3 {
+    padding-top: 6px;
+    width: 80px;
+    height: 30px;
+    font-size: 14px;
+    top: -85px;
+    left: 100px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .sarvar__items_wrp {
+    display: block;
+    padding-left: 120px;
+    margin-bottom: 100px;
+  }
+  .sarvar__head_p {
+    margin-left: 120px;
+  }
+  .sarvar__basket_items_wrp {
+    margin-bottom: 50px;
+    margin-left: -80px;
+  }
+  .sarvar__price_wrp {
+    margin-left: -20px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .sarvar__basket_items_wrp {
+    margin-left: -110px;
+    height: 335 px;
+  }
+  .sarvar__price_wrp {
+    margin-left: -65px;
+  }
+  .sarvar__head_p {
+    margin-left: 50px;
+  }
+  .sarvar__product_img1 {
+    margin-top: 10px;
+  }
+  .item__describe_wrp {
+    margin-top: -18px;
   }
 }/*# sourceMappingURL=style.css.map */
