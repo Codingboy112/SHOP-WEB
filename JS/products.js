@@ -2,6 +2,9 @@ let dropdownDiv = document.querySelectorAll(".dropdown__Filter");
 let dropdownButton = document.querySelectorAll(".dropdownChanger");
 let mainProducWrapper = document.querySelector(".main__products__wrapper");
 
+// mainFil
+let getStyle = new URLSearchParams(window.location.search).get("type");
+
 dropdownButton.forEach((el, i) => {
   el.addEventListener("click", () => {
     if (el.classList.contains("dropdownActive")) {
@@ -18,11 +21,24 @@ dropdownButton.forEach((el, i) => {
 
 mainProducWrapper.innerHTML = "";
 
-products.forEach((el) => {
+// display the product
 
-  mainProducWrapper.insertAdjacentHTML(
-    "beforeend",
-    `
+function displayProducts(arr) {
+  arr.forEach((el) => {
+    let starIcons = "";
+    for (let i = 1; i <= 5; i++) {
+      if (i <= Math.floor(el.rating)) {
+        starIcons += '<i class="bi bi-star-fill"></i>';
+      } else if (i - el.rating < 1) {
+        starIcons += '<i class="bi bi-star-half"></i>';
+      } else {
+        starIcons += '<i class="bi bi-star"></i>';
+      }
+    }
+
+    mainProducWrapper.insertAdjacentHTML(
+      "beforeend",
+      `
   <a href="./showProduct.html">
         <div class="top-selling__product">
               
@@ -30,11 +46,7 @@ products.forEach((el) => {
                 
                     <p class="top-selling__name">${el.title}</p>
                     <p class="productRating">
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-half"></i>
+                    ${starIcons}
                       ${el.rating}/5
                     </p>
                     <div class="top-selling__discount">
@@ -46,8 +58,8 @@ products.forEach((el) => {
                               )
                             : el.price
                         } <del class="top-selling__realPrice"> ${
-      el.discount > 0 ? `${el.price}$` : ""
-    }</del>
+        el.discount > 0 ? `${el.price}$` : ""
+      }</del>
                       </p>
                      ${
                        el.discount > 0
@@ -58,5 +70,20 @@ products.forEach((el) => {
                   </div>
   </a>
     `
-  );
-});
+    );
+  });
+}
+
+function filterTheProducts(arr, callbackFunction) {}
+
+if (getStyle) {
+  if (getStyle == "All") {
+    displayProducts(products);
+  } else {
+    let filteredTypes = [...products].filter((el) => el.category == getStyle);
+    console.log(filteredTypes);
+    displayProducts(filteredTypes);
+  }
+} else {
+  displayProducts(products)
+}

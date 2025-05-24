@@ -54,7 +54,7 @@
 @media only screen and (max-width: 1400px) {
   .arrivals {
     .arrivals__wrapper {
-      .arrival_product:nth-child(4) {
+      &>a:nth-child(4){
         display: none;
       }
     }
@@ -64,7 +64,7 @@
 @media only screen and (max-width: 992px) {
   .arrivals {
     .arrivals__wrapper {
-      .arrival_product:nth-child(4) {
+       &>a:nth-child(4){
         display: inline-block;
       }
     }

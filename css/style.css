@@ -7,13 +7,13 @@
 }
 
 *::-moz-selection {
-  background-color: black;
-  color: white;
+  background-color: rgb(30, 30, 30);
+  color: rgb(223, 223, 223);
 }
 
 *::selection {
-  background-color: black;
-  color: white;
+  background-color: rgb(30, 30, 30);
+  color: rgb(223, 223, 223);
 }
 
 a {
@@ -348,12 +348,12 @@ body {
 }
 
 @media only screen and (max-width: 1400px) {
-  .arrivals .arrivals__wrapper .arrival_product:nth-child(4) {
+  .arrivals .arrivals__wrapper > a:nth-child(4) {
     display: none;
   }
 }
 @media only screen and (max-width: 992px) {
-  .arrivals .arrivals__wrapper .arrival_product:nth-child(4) {
+  .arrivals .arrivals__wrapper > a:nth-child(4) {
     display: inline-block;
   }
 }
