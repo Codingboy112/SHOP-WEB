@@ -20,7 +20,7 @@
   <body>
     <!-- header -->
 
-    <header class="header">
+      <header class="header">
       <div class="header__wrapper-top__color">
         <div class="container">
           <div class="header__wrapper-top">
@@ -45,12 +45,12 @@
             /></a>
           </div>
           <div class="header__links">
-            <a href="#" class="header__link"
+            <a href="./product.html?type=All" class="header__link"
               >Shop <i class="bi bi-chevron-down"></i
             ></a>
-            <a href="#" class="header__link">On Sale</a>
-            <a href="#" class="header__link">New Arrivals</a>
-            <a href="#" class="header__link">Brands</a>
+            <a href="./product.html?type=All" class="header__link">On Sale</a>
+            <a href="./product.html?type=All" class="header__link">New Arrivals</a>
+            <a href="./product.html?type=All" class="header__link">Brands</a>
           </div>
           <div class="search__inp">
             <input
@@ -61,16 +61,16 @@
             />
             <span><i class="bi bi-search"></i></span>
           </div>
-          <i class="bi bi-cart"></i>
+          <a href="./cart2.html"><i class="bi bi-cart"></i></a>
           <i class="bi bi-person-circle"></i>
         </div>
         <div class="dropdown__header">
-          <a href="#" class="header__link"
+          <a href="./product.html?type=All" class="header__link"
             >Shop <i class="bi bi-chevron-down"></i
           ></a>
-          <a href="#" class="header__link">On Sale</a>
-          <a href="#" class="header__link">New Arrivals</a>
-          <a href="#" class="header__link">Brands</a>
+          <a href="./product.html?type=All" class="header__link">On Sale</a>
+          <a href="./product.html?type=All" class="header__link">New Arrivals</a>
+          <a href="./product.html?type=All" class="header__link">Brands</a>
         </div>
       </div>
     </header>
@@ -124,137 +124,139 @@
                   </div>
                 </div>
                 <hr />
-                <div class="filter__productsRange">
-                  <div class="dropdown">
-                    <div class="dropdown__commands">
-                      <h5>Price</h5>
-                      <i class="bi bi-chevron-down dropdownChanger"></i>
-                    </div>
-                    <div class="dropdown__Filter">
-                      <input
-                        type="range"
-                        class="rangePriceFilter"
-                        min="0"
-                        max="2000"
-                        value="1000"
-                      />
-                      <p class="rangePriceValShow">Maximum Price: 2000$</p>
-                    </div>
-                  </div>
-                </div>
-                <hr />
-                <div class="filter__productsColor">
-                  <div class="dropdown">
-                    <div class="dropdown__commands">
-                      <h5>Colors</h5>
-                      <i class="bi bi-chevron-down dropdownChanger"></i>
-                    </div>
-                    <div class="dropdown__Filter">
-                      <!-- Code here -->
-                      <div class="colors__wrapper">
+                <form action="" id="clearInp">
+                  <div class="filter__productsRange">
+                    <div class="dropdown">
+                      <div class="dropdown__commands">
+                        <h5>Price</h5>
+                        <i class="bi bi-chevron-down dropdownChanger"></i>
+                      </div>
+                      <div class="dropdown__Filter">
                         <input
-                          type="radio"
-                          name="sameColor"
-                          value="blue"
-                          class="colorIn colorBlue"
+                          type="range"
+                          class="rangePriceFilter mobileRangeInput"
+                          min="0"
+                          max="2000"
+                          value="1000"
                         />
-                        <input
-                          type="radio"
-                          name="sameColor"
-                          value="red"
-                          class="colorIn colorRed"
-                        />
-                        <input
-                          type="radio"
-                          name="sameColor"
-                          value="aqua"
-                          class="colorIn colorAqua"
-                        />
-                        <input
-                          type="radio"
-                          name="sameColor"
-                          value="orange"
-                          class="colorIn colorOrange"
-                        />
-                        <input
-                          type="radio"
-                          name="sameColor"
-                          value="aquamarine"
-                          class="colorIn colorAquamarine"
-                        />
-                        <input
-                          type="radio"
-                          name="sameColor"
-                          value="purple"
-                          class="colorIn colorPurple"
-                        />
-                        <input
-                          type="radio"
-                          name="sameColor"
-                          value="black"
-                          class="colorIn colorBlack"
-                        />
-                        <input
-                          type="radio"
-                          name="sameColor"
-                          value="pink"
-                          class="colorIn colorPink"
-                        />
+                        <p class="rangePriceValShow">Maximum Price: 2000$</p>
                       </div>
                     </div>
                   </div>
-                </div>
-                <hr />
-                <div class="filter__productsSize">
-                  <div class="dropdown">
-                    <div class="dropdown__commands">
-                      <h5>Size</h5>
-                      <i class="bi bi-chevron-down dropdownChanger"></i>
-                    </div>
-                    <div class="dropdown__Filter">
-                      <div class="size__divs_wrapper">
-                        <div class="size__divs_wrapper">
-                          <label>
-                            <input type="checkbox" />
-                            <span class="sizeCheckBox">XX-Small</span>
-                          </label>
-                          <label>
-                            <input type="checkbox" />
-                            <span class="sizeCheckBox">X-Small</span>
-                          </label>
-                          <label>
-                            <input type="checkbox" />
-                            <span class="sizeCheckBox">Small</span>
-                          </label>
-                          <label>
-                            <input type="checkbox" />
-                            <span class="sizeCheckBox">Medium</span>
-                          </label>
-                          <label>
-                            <input type="checkbox" />
-                            <span class="sizeCheckBox">Large</span>
-                          </label>
-                          <label>
-                            <input type="checkbox" />
-                            <span class="sizeCheckBox">X-Large</span>
-                          </label>
-                          <label>
-                            <input type="checkbox" />
-                            <span class="sizeCheckBox">XX-Large</span>
-                          </label>
-                          <label>
-                            <input type="checkbox" />
-                            <span class="sizeCheckBox">3X-Large</span>
-                          </label>
-                          <label>
-                            <input type="checkbox" />
-                            <span class="sizeCheckBox">4X-Large</span>
-                          </label>
+                  <hr />
+                  <div class="filter__productsColor">
+                    <div class="dropdown">
+                      <div class="dropdown__commands">
+                        <h5>Colors</h5>
+                        <i class="bi bi-chevron-down dropdownChanger"></i>
+                      </div>
+                      <div class="dropdown__Filter">
+                        <!-- Code here -->
+                        <div class="colors__wrapper">
+                          <input
+                            type="radio"
+                            name="sameColor"
+                            value="blue"
+                            class="colorIn colorBlue"
+                          />
+                          <input
+                            type="radio"
+                            name="sameColor"
+                            value="red"
+                            class="colorIn colorRed"
+                          />
+                          <input
+                            type="radio"
+                            name="sameColor"
+                            value="aqua"
+                            class="colorIn colorAqua"
+                          />
+                          <input
+                            type="radio"
+                            name="sameColor"
+                            value="orange"
+                            class="colorIn colorOrange"
+                          />
+                          <input
+                            type="radio"
+                            name="sameColor"
+                            value="aquamarine"
+                            class="colorIn colorAquamarine"
+                          />
+                          <input
+                            type="radio"
+                            name="sameColor"
+                            value="purple"
+                            class="colorIn colorPurple"
+                          />
+                          <input
+                            type="radio"
+                            name="sameColor"
+                            value="black"
+                            class="colorIn colorBlack"
+                          />
+                          <input
+                            type="radio"
+                            name="sameColor"
+                            value="pink"
+                            class="colorIn colorPink"
+                          />
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
+                  <hr />
+                  <div class="filter__productsSize">
+                    <div class="dropdown">
+                      <div class="dropdown__commands">
+                        <h5>Size</h5>
+                        <i class="bi bi-chevron-down dropdownChanger"></i>
+                      </div>
+                      <div class="dropdown__Filter">
+                        <div class="size__divs_wrapper">
+                          <div class="size__divs_wrapper">
+                            <label>
+                              <input type="checkbox" />
+                              <span class="sizeCheckBox">XX-Small</span>
+                            </label>
+                            <label>
+                              <input type="checkbox" />
+                              <span class="sizeCheckBox">X-Small</span>
+                            </label>
+                            <label>
+                              <input type="checkbox" />
+                              <span class="sizeCheckBox">Small</span>
+                            </label>
+                            <label>
+                              <input type="checkbox" />
+                              <span class="sizeCheckBox">Medium</span>
+                            </label>
+                            <label>
+                              <input type="checkbox" />
+                              <span class="sizeCheckBox">Large</span>
+                            </label>
+                            <label>
+                              <input type="checkbox" />
+                              <span class="sizeCheckBox">X-Large</span>
+                            </label>
+                            <label>
+                              <input type="checkbox" />
+                              <span class="sizeCheckBox">XX-Large</span>
+                            </label>
+                            <label>
+                              <input type="checkbox" />
+                              <span class="sizeCheckBox">3X-Large</span>
+                            </label>
+                            <label>
+                              <input type="checkbox" />
+                              <span class="sizeCheckBox">4X-Large</span>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
                 <hr />
                 <div class="filter__productsStyle">
                   <div class="dropdown">
@@ -286,6 +288,38 @@
                           <i class="bi bi-chevron-right"></i>
                         </div>
                       </div>
+                        <div class="filter__dressStyles">
+                      <a href="./product.html?type=All">
+                        <div class="dress__style">
+                          <p class="dress__style_title">All</p>
+                          <i class="bi bi-chevron-right"></i>
+                        </div>
+                      </a>
+                      <a href="./product.html?type=Casual">
+                        <div class="dress__style">
+                          <p class="dress__style_title">Casual</p>
+                          <i class="bi bi-chevron-right"></i>
+                        </div>
+                      </a>
+                      <a href="./product.html?type=Formal">
+                        <div class="dress__style">
+                          <p class="dress__style_title">Formal</p>
+                          <i class="bi bi-chevron-right"></i>
+                        </div>
+                      </a>
+                      <a href="./product.html?type=Party">
+                        <div class="dress__style">
+                          <p class="dress__style_title">Party</p>
+                          <i class="bi bi-chevron-right"></i>
+                        </div>
+                      </a>
+                      <a href="./product.html?type=Gym">
+                        <div class="dress__style">
+                          <p class="dress__style_title">Gym</p>
+                          <i class="bi bi-chevron-right"></i>
+                        </div>
+                      </a>
+                    </div>
                     </div>
                   </div>
                 </div>
@@ -339,7 +373,7 @@
                   <div class="dropdown__Filter">
                     <input
                       type="range"
-                      class="rangePriceFilter"
+                      class="rangePriceFilter desktopRangeInput"
                       min="0"
                       max="2000"
                       value="1000"
@@ -421,39 +455,39 @@
                     <div class="size__divs_wrapper">
                       <div class="size__divs_wrapper">
                         <label>
-                          <input type="checkbox" />
+                          <input type="checkbox" value="XX-Small" />
                           <span class="sizeCheckBox">XX-Small</span>
                         </label>
                         <label>
-                          <input type="checkbox" />
+                          <input type="checkbox" value="X-Small" />
                           <span class="sizeCheckBox">X-Small</span>
                         </label>
                         <label>
-                          <input type="checkbox" />
+                          <input type="checkbox" value="Small" />
                           <span class="sizeCheckBox">Small</span>
                         </label>
                         <label>
-                          <input type="checkbox" />
+                          <input type="checkbox" value="Medium" />
                           <span class="sizeCheckBox">Medium</span>
                         </label>
                         <label>
-                          <input type="checkbox" />
+                          <input type="checkbox" value="Large" />
                           <span class="sizeCheckBox">Large</span>
                         </label>
                         <label>
-                          <input type="checkbox" />
+                          <input type="checkbox" value="X-Large" />
                           <span class="sizeCheckBox">X-Large</span>
                         </label>
                         <label>
-                          <input type="checkbox" />
+                          <input type="checkbox" value="XX-Large" />
                           <span class="sizeCheckBox">XX-Large</span>
                         </label>
                         <label>
-                          <input type="checkbox" />
+                          <input type="checkbox" value="3X-Large" />
                           <span class="sizeCheckBox">3X-Large</span>
                         </label>
                         <label>
-                          <input type="checkbox" />
+                          <input type="checkbox" value="4X-Large" />
                           <span class="sizeCheckBox">4X-Large</span>
                         </label>
                       </div>
@@ -471,36 +505,36 @@
                   <div class="dropdown__Filter">
                     <!-- Code -->
                     <div class="filter__dressStyles">
-                     <a href="./product.html?type=All">
-                       <div class="dress__style">
-                        <p class="dress__style_title">All</p>
-                        <i class="bi bi-chevron-right"></i>
-                      </div>
-                     </a>
+                      <a href="./product.html?type=All">
+                        <div class="dress__style">
+                          <p class="dress__style_title">All</p>
+                          <i class="bi bi-chevron-right"></i>
+                        </div>
+                      </a>
                       <a href="./product.html?type=Casual">
                         <div class="dress__style">
-                        <p class="dress__style_title">Casual</p>
-                        <i class="bi bi-chevron-right"></i>
-                      </div>
+                          <p class="dress__style_title">Casual</p>
+                          <i class="bi bi-chevron-right"></i>
+                        </div>
                       </a>
-                     <a href="./product.html?type=Formal">
-                       <div class="dress__style">
-                        <p class="dress__style_title">Formal</p>
-                        <i class="bi bi-chevron-right"></i>
-                      </div>
-                     </a>
-                     <a href="./product.html?type=Party">
-                       <div class="dress__style">
-                        <p class="dress__style_title">Party</p>
-                        <i class="bi bi-chevron-right"></i>
-                      </div>
-                     </a>
-                     <a href="./product.html?type=Gym">
-                       <div class="dress__style">
-                        <p class="dress__style_title">Gym</p>
-                        <i class="bi bi-chevron-right"></i>
-                      </div>
-                     </a>
+                      <a href="./product.html?type=Formal">
+                        <div class="dress__style">
+                          <p class="dress__style_title">Formal</p>
+                          <i class="bi bi-chevron-right"></i>
+                        </div>
+                      </a>
+                      <a href="./product.html?type=Party">
+                        <div class="dress__style">
+                          <p class="dress__style_title">Party</p>
+                          <i class="bi bi-chevron-right"></i>
+                        </div>
+                      </a>
+                      <a href="./product.html?type=Gym">
+                        <div class="dress__style">
+                          <p class="dress__style_title">Gym</p>
+                          <i class="bi bi-chevron-right"></i>
+                        </div>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -535,28 +569,28 @@
               </div>
               <div class="bottom__products__main">
                 <div class="main__products__wrapper">
-                <a href="./showProduct.html">
+                  <a href="./showProduct.html">
                     <div class="top-selling__product">
-                    <div class="cover__image">
-                      <img src="assets/image.png" alt="" />
-                    </div>
-                    <p class="top-selling__name">T-shirt Tape details</p>
-                    <p class="productRating">
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-half"></i>
-                      4.5/5
-                    </p>
-                    <div class="top-selling__discount">
-                      <p>
-                        $240 <del class="top-selling__realPrice"> $260</del>
+                      <div class="cover__image">
+                        <img src="assets/image.png" alt="" />
+                      </div>
+                      <p class="top-selling__name">T-shirt Tape details</p>
+                      <p class="productRating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        4.5/5
                       </p>
-                      <span class="top-selling__percent">-20%</span>
+                      <div class="top-selling__discount">
+                        <p>
+                          $240 <del class="top-selling__realPrice"> $260</del>
+                        </p>
+                        <span class="top-selling__percent">-20%</span>
+                      </div>
                     </div>
-                  </div>
-                </a>
+                  </a>
                   <div class="top-selling__product">
                     <div class="cover__image">
                       <img src="assets/image.png" alt="" />

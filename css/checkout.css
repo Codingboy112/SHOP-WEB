@@ -201,6 +201,7 @@ body {
   width: 100%;
   margin-bottom: 5px;
   border-radius: 20px;
+  background-color: #F0EFED;
 }
 .productShow .productShow__wrapper .first__show .product__imageWrapper .first__imageNavigators .navigator__image:hover {
   border: 1px solid black;

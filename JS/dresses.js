@@ -60,6 +60,8 @@ let products = [
     id: 1,
     title: "Nightline Hoodie",
     image: "./images/2.jpg",
+    navigatorImg3: "https://rosepng.com/wp-content/uploads/2024/09/pikaso_enhance__vivid_2k_standard_r_c_-removebg-preview.png",
+    navigatorImg2: "https://png.pngtree.com/png-clipart/20230607/ourmid/pngtree-black-t-shirt-mockup-new-model-realistic-png-image_7122610.png",
     rating: 4.5,
     price: 90,
     category: "Casual",
