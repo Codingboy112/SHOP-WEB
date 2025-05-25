@@ -75,7 +75,7 @@ productRealPrice.innerHTML =
   foundProduct.discount > 0 ? `$${foundProduct.price}` : "";
 
 if (foundProduct.discount > 0) {
-  productDiscount.innerHTML = `${foundProduct.discount}%`;
+  productDiscount.innerHTML = `-${foundProduct.discount}%`;
 } else {
   productDiscount.remove();
 }
@@ -110,9 +110,19 @@ productIncrease.addEventListener("click", () => {
 // add to cart
 
 buyCartButton.addEventListener("click", () => {
+  let allSizeCheckBoxes = [...document.querySelectorAll(".dekstopCheckbox")].filter(
+    (el) => el.checked
+  )[0];
+  
+let pressedColor = [...document.querySelectorAll('.colorIn')].find(el => el.checked);
+  
+  
+
   const cartItem = {
     product: foundProduct,
     quantity: currentCount,
+    size: allSizeCheckBoxes?.value || null,
+    color: pressedColor?.value || null,
   };
 
   let cart = JSON.parse(localStorage.getItem("cart")) || [];
@@ -174,7 +184,6 @@ let similarItems = products.filter(
 
 // Clear the wrapper **before** the loop
 
-
 suggestedWrapper.innerHTML = "";
 
 similarItems.forEach((el) => {
@@ -184,6 +193,7 @@ similarItems.forEach((el) => {
   suggestedWrapper.insertAdjacentHTML(
     "beforeend",
     `
+   <a href="./showProduct.html?id=${el.id}">
       <div class="suggested__product">
         <img src="${el.image}" alt="" />
         <p class="suggestedProduct__name">${el.title}</p>
@@ -207,6 +217,7 @@ similarItems.forEach((el) => {
           }
         </div>
       </div> 
+      </a>
     `
   );
 });
