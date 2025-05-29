@@ -11,50 +11,50 @@ let products = [
     discount: 0,
     colors: ["darkgreen", "chocolate", "darkviolet"],
     sizes: ["Small", "Medium", "Large", "X-large", "XX-large"],
-  comments: [
-  {
-    user: "Jordan",
-    userRate: 5,
-    posted: "March 10, 2024",
-    comment:
-      "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
-  },
-  {
-    user: "Taylor R.",
-    userRate: 3,
-    posted: "July 5, 2024",
-    comment:
-      "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
-  },
-  {
-    user: "Morgan",
-    userRate: 4,
-    posted: "October 22, 2024",
-    comment:
-      "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
-  },
-  {
-    user: "Casey",
-    userRate: 2,
-    posted: "February 18, 2024",
-    comment:
-      "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
-  },
-  {
-    user: "Avery",
-    userRate: 4,
-    posted: "December 3, 2023",
-    comment:
-      "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
-  },
-  {
-    user: "Riley",
-    userRate: 5,
-    posted: "August 14, 2024",
-    comment:
-      "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
-  },
-]
+    comments: [
+      {
+        user: "Jordan",
+        userRate: 5,
+        posted: "March 10, 2024",
+        comment:
+          "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
+      },
+      {
+        user: "Taylor R.",
+        userRate: 3,
+        posted: "July 5, 2024",
+        comment:
+          "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
+      },
+      {
+        user: "Morgan",
+        userRate: 4,
+        posted: "October 22, 2024",
+        comment:
+          "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
+      },
+      {
+        user: "Casey",
+        userRate: 2,
+        posted: "February 18, 2024",
+        comment:
+          "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
+      },
+      {
+        user: "Avery",
+        userRate: 4,
+        posted: "December 3, 2023",
+        comment:
+          "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
+      },
+      {
+        user: "Riley",
+        userRate: 5,
+        posted: "August 14, 2024",
+        comment:
+          "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
+      },
+    ],
   },
   {
     id: 1,
@@ -72,50 +72,50 @@ let products = [
     discount: 10,
     colors: ["midnightblue", "dimgray", "black"],
     sizes: ["Small", "Medium", "Large", "X-large", "XX-large"],
-  comments: [
-  {
-    user: "Jordan",
-    userRate: 5,
-    posted: "March 10, 2024",
-    comment:
-      "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
-  },
-  {
-    user: "Taylor R.",
-    userRate: 3,
-    posted: "July 5, 2024",
-    comment:
-      "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
-  },
-  {
-    user: "Morgan",
-    userRate: 4,
-    posted: "October 22, 2024",
-    comment:
-      "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
-  },
-  {
-    user: "Casey",
-    userRate: 2,
-    posted: "February 18, 2024",
-    comment:
-      "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
-  },
-  {
-    user: "Avery",
-    userRate: 4,
-    posted: "December 3, 2023",
-    comment:
-      "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
-  },
-  {
-    user: "Riley",
-    userRate: 5,
-    posted: "August 14, 2024",
-    comment:
-      "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
-  },
-]
+    comments: [
+      {
+        user: "Jordan",
+        userRate: 5,
+        posted: "March 10, 2024",
+        comment:
+          "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
+      },
+      {
+        user: "Taylor R.",
+        userRate: 3,
+        posted: "July 5, 2024",
+        comment:
+          "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
+      },
+      {
+        user: "Morgan",
+        userRate: 4,
+        posted: "October 22, 2024",
+        comment:
+          "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
+      },
+      {
+        user: "Casey",
+        userRate: 2,
+        posted: "February 18, 2024",
+        comment:
+          "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
+      },
+      {
+        user: "Avery",
+        userRate: 4,
+        posted: "December 3, 2023",
+        comment:
+          "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
+      },
+      {
+        user: "Riley",
+        userRate: 5,
+        posted: "August 14, 2024",
+        comment:
+          "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
+      },
+    ],
   },
   {
     id: 2,
@@ -129,50 +129,50 @@ let products = [
     discount: 0,
     colors: ["navy", "slategray", "maroon"],
     sizes: ["Small", "Medium", "Large", "X-large", "XX-large"],
-  comments: [
-  {
-    user: "Jordan",
-    userRate: 5,
-    posted: "March 10, 2024",
-    comment:
-      "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
-  },
-  {
-    user: "Taylor R.",
-    userRate: 3,
-    posted: "July 5, 2024",
-    comment:
-      "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
-  },
-  {
-    user: "Morgan",
-    userRate: 4,
-    posted: "October 22, 2024",
-    comment:
-      "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
-  },
-  {
-    user: "Casey",
-    userRate: 2,
-    posted: "February 18, 2024",
-    comment:
-      "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
-  },
-  {
-    user: "Avery",
-    userRate: 4,
-    posted: "December 3, 2023",
-    comment:
-      "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
-  },
-  {
-    user: "Riley",
-    userRate: 5,
-    posted: "August 14, 2024",
-    comment:
-      "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
-  },
-]
+    comments: [
+      {
+        user: "Jordan",
+        userRate: 5,
+        posted: "March 10, 2024",
+        comment:
+          "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
+      },
+      {
+        user: "Taylor R.",
+        userRate: 3,
+        posted: "July 5, 2024",
+        comment:
+          "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
+      },
+      {
+        user: "Morgan",
+        userRate: 4,
+        posted: "October 22, 2024",
+        comment:
+          "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
+      },
+      {
+        user: "Casey",
+        userRate: 2,
+        posted: "February 18, 2024",
+        comment:
+          "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
+      },
+      {
+        user: "Avery",
+        userRate: 4,
+        posted: "December 3, 2023",
+        comment:
+          "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
+      },
+      {
+        user: "Riley",
+        userRate: 5,
+        posted: "August 14, 2024",
+        comment:
+          "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
+      },
+    ],
   },
   {
     id: 3,
@@ -186,50 +186,50 @@ let products = [
     discount: 5,
     colors: ["darkred", "indigo", "black"],
     sizes: ["Small", "Medium", "Large", "X-large", "XX-large"],
-  comments: [
-  {
-    user: "Jordan",
-    userRate: 5,
-    posted: "March 10, 2024",
-    comment:
-      "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
-  },
-  {
-    user: "Taylor R.",
-    userRate: 3,
-    posted: "July 5, 2024",
-    comment:
-      "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
-  },
-  {
-    user: "Morgan",
-    userRate: 4,
-    posted: "October 22, 2024",
-    comment:
-      "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
-  },
-  {
-    user: "Casey",
-    userRate: 2,
-    posted: "February 18, 2024",
-    comment:
-      "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
-  },
-  {
-    user: "Avery",
-    userRate: 4,
-    posted: "December 3, 2023",
-    comment:
-      "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
-  },
-  {
-    user: "Riley",
-    userRate: 5,
-    posted: "August 14, 2024",
-    comment:
-      "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
-  },
-]
+    comments: [
+      {
+        user: "Jordan",
+        userRate: 5,
+        posted: "March 10, 2024",
+        comment:
+          "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
+      },
+      {
+        user: "Taylor R.",
+        userRate: 3,
+        posted: "July 5, 2024",
+        comment:
+          "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
+      },
+      {
+        user: "Morgan",
+        userRate: 4,
+        posted: "October 22, 2024",
+        comment:
+          "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
+      },
+      {
+        user: "Casey",
+        userRate: 2,
+        posted: "February 18, 2024",
+        comment:
+          "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
+      },
+      {
+        user: "Avery",
+        userRate: 4,
+        posted: "December 3, 2023",
+        comment:
+          "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
+      },
+      {
+        user: "Riley",
+        userRate: 5,
+        posted: "August 14, 2024",
+        comment:
+          "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
+      },
+    ],
   },
   {
     id: 4,
@@ -243,50 +243,50 @@ let products = [
     discount: 0,
     colors: ["purple", "darkslateblue", "midnightblue"],
     sizes: ["Small", "Medium", "Large", "X-large", "XX-large"],
-  comments: [
-  {
-    user: "Jordan",
-    userRate: 5,
-    posted: "March 10, 2024",
-    comment:
-      "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
-  },
-  {
-    user: "Taylor R.",
-    userRate: 3,
-    posted: "July 5, 2024",
-    comment:
-      "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
-  },
-  {
-    user: "Morgan",
-    userRate: 4,
-    posted: "October 22, 2024",
-    comment:
-      "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
-  },
-  {
-    user: "Casey",
-    userRate: 2,
-    posted: "February 18, 2024",
-    comment:
-      "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
-  },
-  {
-    user: "Avery",
-    userRate: 4,
-    posted: "December 3, 2023",
-    comment:
-      "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
-  },
-  {
-    user: "Riley",
-    userRate: 5,
-    posted: "August 14, 2024",
-    comment:
-      "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
-  },
-]
+    comments: [
+      {
+        user: "Jordan",
+        userRate: 5,
+        posted: "March 10, 2024",
+        comment:
+          "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
+      },
+      {
+        user: "Taylor R.",
+        userRate: 3,
+        posted: "July 5, 2024",
+        comment:
+          "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
+      },
+      {
+        user: "Morgan",
+        userRate: 4,
+        posted: "October 22, 2024",
+        comment:
+          "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
+      },
+      {
+        user: "Casey",
+        userRate: 2,
+        posted: "February 18, 2024",
+        comment:
+          "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
+      },
+      {
+        user: "Avery",
+        userRate: 4,
+        posted: "December 3, 2023",
+        comment:
+          "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
+      },
+      {
+        user: "Riley",
+        userRate: 5,
+        posted: "August 14, 2024",
+        comment:
+          "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
+      },
+    ],
   },
   {
     id: 5,
@@ -300,50 +300,50 @@ let products = [
     discount: 0,
     colors: ["darkolivegreen", "teal", "black"],
     sizes: ["Small", "Medium", "Large", "X-large", "XX-large"],
-  comments: [
-  {
-    user: "Jordan",
-    userRate: 5,
-    posted: "March 10, 2024",
-    comment:
-      "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
-  },
-  {
-    user: "Taylor R.",
-    userRate: 3,
-    posted: "July 5, 2024",
-    comment:
-      "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
-  },
-  {
-    user: "Morgan",
-    userRate: 4,
-    posted: "October 22, 2024",
-    comment:
-      "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
-  },
-  {
-    user: "Casey",
-    userRate: 2,
-    posted: "February 18, 2024",
-    comment:
-      "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
-  },
-  {
-    user: "Avery",
-    userRate: 4,
-    posted: "December 3, 2023",
-    comment:
-      "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
-  },
-  {
-    user: "Riley",
-    userRate: 5,
-    posted: "August 14, 2024",
-    comment:
-      "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
-  },
-]
+    comments: [
+      {
+        user: "Jordan",
+        userRate: 5,
+        posted: "March 10, 2024",
+        comment:
+          "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
+      },
+      {
+        user: "Taylor R.",
+        userRate: 3,
+        posted: "July 5, 2024",
+        comment:
+          "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
+      },
+      {
+        user: "Morgan",
+        userRate: 4,
+        posted: "October 22, 2024",
+        comment:
+          "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
+      },
+      {
+        user: "Casey",
+        userRate: 2,
+        posted: "February 18, 2024",
+        comment:
+          "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
+      },
+      {
+        user: "Avery",
+        userRate: 4,
+        posted: "December 3, 2023",
+        comment:
+          "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
+      },
+      {
+        user: "Riley",
+        userRate: 5,
+        posted: "August 14, 2024",
+        comment:
+          "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
+      },
+    ],
   },
   {
     id: 6,
@@ -357,50 +357,50 @@ let products = [
     discount: 15,
     colors: ["charcoal", "navy", "black"],
     sizes: ["Small", "Medium", "Large", "X-large", "XX-large"],
-  comments: [
-  {
-    user: "Jordan",
-    userRate: 5,
-    posted: "March 10, 2024",
-    comment:
-      "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
-  },
-  {
-    user: "Taylor R.",
-    userRate: 3,
-    posted: "July 5, 2024",
-    comment:
-      "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
-  },
-  {
-    user: "Morgan",
-    userRate: 4,
-    posted: "October 22, 2024",
-    comment:
-      "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
-  },
-  {
-    user: "Casey",
-    userRate: 2,
-    posted: "February 18, 2024",
-    comment:
-      "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
-  },
-  {
-    user: "Avery",
-    userRate: 4,
-    posted: "December 3, 2023",
-    comment:
-      "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
-  },
-  {
-    user: "Riley",
-    userRate: 5,
-    posted: "August 14, 2024",
-    comment:
-      "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
-  },
-]
+    comments: [
+      {
+        user: "Jordan",
+        userRate: 5,
+        posted: "March 10, 2024",
+        comment:
+          "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
+      },
+      {
+        user: "Taylor R.",
+        userRate: 3,
+        posted: "July 5, 2024",
+        comment:
+          "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
+      },
+      {
+        user: "Morgan",
+        userRate: 4,
+        posted: "October 22, 2024",
+        comment:
+          "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
+      },
+      {
+        user: "Casey",
+        userRate: 2,
+        posted: "February 18, 2024",
+        comment:
+          "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
+      },
+      {
+        user: "Avery",
+        userRate: 4,
+        posted: "December 3, 2023",
+        comment:
+          "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
+      },
+      {
+        user: "Riley",
+        userRate: 5,
+        posted: "August 14, 2024",
+        comment:
+          "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
+      },
+    ],
   },
   {
     id: 7,
@@ -414,50 +414,50 @@ let products = [
     discount: 0,
     colors: ["crimson", "darkslategray", "darkblue"],
     sizes: ["Small", "Medium", "Large", "X-large", "XX-large"],
-  comments: [
-  {
-    user: "Jordan",
-    userRate: 5,
-    posted: "March 10, 2024",
-    comment:
-      "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
-  },
-  {
-    user: "Taylor R.",
-    userRate: 3,
-    posted: "July 5, 2024",
-    comment:
-      "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
-  },
-  {
-    user: "Morgan",
-    userRate: 4,
-    posted: "October 22, 2024",
-    comment:
-      "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
-  },
-  {
-    user: "Casey",
-    userRate: 2,
-    posted: "February 18, 2024",
-    comment:
-      "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
-  },
-  {
-    user: "Avery",
-    userRate: 4,
-    posted: "December 3, 2023",
-    comment:
-      "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
-  },
-  {
-    user: "Riley",
-    userRate: 5,
-    posted: "August 14, 2024",
-    comment:
-      "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
-  },
-]
+    comments: [
+      {
+        user: "Jordan",
+        userRate: 5,
+        posted: "March 10, 2024",
+        comment:
+          "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
+      },
+      {
+        user: "Taylor R.",
+        userRate: 3,
+        posted: "July 5, 2024",
+        comment:
+          "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
+      },
+      {
+        user: "Morgan",
+        userRate: 4,
+        posted: "October 22, 2024",
+        comment:
+          "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
+      },
+      {
+        user: "Casey",
+        userRate: 2,
+        posted: "February 18, 2024",
+        comment:
+          "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
+      },
+      {
+        user: "Avery",
+        userRate: 4,
+        posted: "December 3, 2023",
+        comment:
+          "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
+      },
+      {
+        user: "Riley",
+        userRate: 5,
+        posted: "August 14, 2024",
+        comment:
+          "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
+      },
+    ],
   },
   {
     id: 8,
@@ -471,50 +471,50 @@ let products = [
     discount: 20,
     colors: ["black", "orchid", "deeppink"],
     sizes: ["Small", "Medium", "Large", "X-large", "XX-large"],
-  comments: [
-  {
-    user: "Jordan",
-    userRate: 5,
-    posted: "March 10, 2024",
-    comment:
-      "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
-  },
-  {
-    user: "Taylor R.",
-    userRate: 3,
-    posted: "July 5, 2024",
-    comment:
-      "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
-  },
-  {
-    user: "Morgan",
-    userRate: 4,
-    posted: "October 22, 2024",
-    comment:
-      "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
-  },
-  {
-    user: "Casey",
-    userRate: 2,
-    posted: "February 18, 2024",
-    comment:
-      "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
-  },
-  {
-    user: "Avery",
-    userRate: 4,
-    posted: "December 3, 2023",
-    comment:
-      "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
-  },
-  {
-    user: "Riley",
-    userRate: 5,
-    posted: "August 14, 2024",
-    comment:
-      "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
-  },
-]
+    comments: [
+      {
+        user: "Jordan",
+        userRate: 5,
+        posted: "March 10, 2024",
+        comment:
+          "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
+      },
+      {
+        user: "Taylor R.",
+        userRate: 3,
+        posted: "July 5, 2024",
+        comment:
+          "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
+      },
+      {
+        user: "Morgan",
+        userRate: 4,
+        posted: "October 22, 2024",
+        comment:
+          "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
+      },
+      {
+        user: "Casey",
+        userRate: 2,
+        posted: "February 18, 2024",
+        comment:
+          "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
+      },
+      {
+        user: "Avery",
+        userRate: 4,
+        posted: "December 3, 2023",
+        comment:
+          "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
+      },
+      {
+        user: "Riley",
+        userRate: 5,
+        posted: "August 14, 2024",
+        comment:
+          "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
+      },
+    ],
   },
   {
     id: 9,
@@ -528,50 +528,50 @@ let products = [
     discount: 0,
     colors: ["saddlebrown", "darkslategray", "black"],
     sizes: ["Small", "Medium", "Large", "X-large", "XX-large"],
-  comments: [
-  {
-    user: "Jordan",
-    userRate: 5,
-    posted: "March 10, 2024",
-    comment:
-      "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
-  },
-  {
-    user: "Taylor R.",
-    userRate: 3,
-    posted: "July 5, 2024",
-    comment:
-      "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
-  },
-  {
-    user: "Morgan",
-    userRate: 4,
-    posted: "October 22, 2024",
-    comment:
-      "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
-  },
-  {
-    user: "Casey",
-    userRate: 2,
-    posted: "February 18, 2024",
-    comment:
-      "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
-  },
-  {
-    user: "Avery",
-    userRate: 4,
-    posted: "December 3, 2023",
-    comment:
-      "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
-  },
-  {
-    user: "Riley",
-    userRate: 5,
-    posted: "August 14, 2024",
-    comment:
-      "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
-  },
-]
+    comments: [
+      {
+        user: "Jordan",
+        userRate: 5,
+        posted: "March 10, 2024",
+        comment:
+          "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
+      },
+      {
+        user: "Taylor R.",
+        userRate: 3,
+        posted: "July 5, 2024",
+        comment:
+          "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
+      },
+      {
+        user: "Morgan",
+        userRate: 4,
+        posted: "October 22, 2024",
+        comment:
+          "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
+      },
+      {
+        user: "Casey",
+        userRate: 2,
+        posted: "February 18, 2024",
+        comment:
+          "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
+      },
+      {
+        user: "Avery",
+        userRate: 4,
+        posted: "December 3, 2023",
+        comment:
+          "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
+      },
+      {
+        user: "Riley",
+        userRate: 5,
+        posted: "August 14, 2024",
+        comment:
+          "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
+      },
+    ],
   },
   {
     id: 10,
@@ -585,50 +585,50 @@ let products = [
     discount: 0,
     colors: ["black", "dimgray", "darkslateblue"],
     sizes: ["Small", "Medium", "Large", "X-large", "XX-large"],
-  comments: [
-  {
-    user: "Jordan",
-    userRate: 5,
-    posted: "March 10, 2024",
-    comment:
-      "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
-  },
-  {
-    user: "Taylor R.",
-    userRate: 3,
-    posted: "July 5, 2024",
-    comment:
-      "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
-  },
-  {
-    user: "Morgan",
-    userRate: 4,
-    posted: "October 22, 2024",
-    comment:
-      "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
-  },
-  {
-    user: "Casey",
-    userRate: 2,
-    posted: "February 18, 2024",
-    comment:
-      "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
-  },
-  {
-    user: "Avery",
-    userRate: 4,
-    posted: "December 3, 2023",
-    comment:
-      "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
-  },
-  {
-    user: "Riley",
-    userRate: 5,
-    posted: "August 14, 2024",
-    comment:
-      "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
-  },
-]
+    comments: [
+      {
+        user: "Jordan",
+        userRate: 5,
+        posted: "March 10, 2024",
+        comment:
+          "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
+      },
+      {
+        user: "Taylor R.",
+        userRate: 3,
+        posted: "July 5, 2024",
+        comment:
+          "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
+      },
+      {
+        user: "Morgan",
+        userRate: 4,
+        posted: "October 22, 2024",
+        comment:
+          "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
+      },
+      {
+        user: "Casey",
+        userRate: 2,
+        posted: "February 18, 2024",
+        comment:
+          "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
+      },
+      {
+        user: "Avery",
+        userRate: 4,
+        posted: "December 3, 2023",
+        comment:
+          "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
+      },
+      {
+        user: "Riley",
+        userRate: 5,
+        posted: "August 14, 2024",
+        comment:
+          "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
+      },
+    ],
   },
   {
     id: 11,
@@ -642,50 +642,50 @@ let products = [
     discount: 0,
     colors: ["black", "midnightblue", "darkviolet"],
     sizes: ["Small", "Medium", "Large", "X-large", "XX-large"],
-  comments: [
-  {
-    user: "Jordan",
-    userRate: 5,
-    posted: "March 10, 2024",
-    comment:
-      "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
-  },
-  {
-    user: "Taylor R.",
-    userRate: 3,
-    posted: "July 5, 2024",
-    comment:
-      "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
-  },
-  {
-    user: "Morgan",
-    userRate: 4,
-    posted: "October 22, 2024",
-    comment:
-      "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
-  },
-  {
-    user: "Casey",
-    userRate: 2,
-    posted: "February 18, 2024",
-    comment:
-      "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
-  },
-  {
-    user: "Avery",
-    userRate: 4,
-    posted: "December 3, 2023",
-    comment:
-      "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
-  },
-  {
-    user: "Riley",
-    userRate: 5,
-    posted: "August 14, 2024",
-    comment:
-      "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
-  },
-]
+    comments: [
+      {
+        user: "Jordan",
+        userRate: 5,
+        posted: "March 10, 2024",
+        comment:
+          "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
+      },
+      {
+        user: "Taylor R.",
+        userRate: 3,
+        posted: "July 5, 2024",
+        comment:
+          "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
+      },
+      {
+        user: "Morgan",
+        userRate: 4,
+        posted: "October 22, 2024",
+        comment:
+          "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
+      },
+      {
+        user: "Casey",
+        userRate: 2,
+        posted: "February 18, 2024",
+        comment:
+          "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
+      },
+      {
+        user: "Avery",
+        userRate: 4,
+        posted: "December 3, 2023",
+        comment:
+          "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
+      },
+      {
+        user: "Riley",
+        userRate: 5,
+        posted: "August 14, 2024",
+        comment:
+          "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
+      },
+    ],
   },
   {
     id: 12,
@@ -699,50 +699,50 @@ let products = [
     discount: 10,
     colors: ["darkgreen", "darkblue", "black"],
     sizes: ["Small", "Medium", "Large", "X-large", "XX-large"],
-  comments: [
-  {
-    user: "Jordan",
-    userRate: 5,
-    posted: "March 10, 2024",
-    comment:
-      "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
-  },
-  {
-    user: "Taylor R.",
-    userRate: 3,
-    posted: "July 5, 2024",
-    comment:
-      "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
-  },
-  {
-    user: "Morgan",
-    userRate: 4,
-    posted: "October 22, 2024",
-    comment:
-      "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
-  },
-  {
-    user: "Casey",
-    userRate: 2,
-    posted: "February 18, 2024",
-    comment:
-      "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
-  },
-  {
-    user: "Avery",
-    userRate: 4,
-    posted: "December 3, 2023",
-    comment:
-      "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
-  },
-  {
-    user: "Riley",
-    userRate: 5,
-    posted: "August 14, 2024",
-    comment:
-      "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
-  },
-]
+    comments: [
+      {
+        user: "Jordan",
+        userRate: 5,
+        posted: "March 10, 2024",
+        comment:
+          "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
+      },
+      {
+        user: "Taylor R.",
+        userRate: 3,
+        posted: "July 5, 2024",
+        comment:
+          "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
+      },
+      {
+        user: "Morgan",
+        userRate: 4,
+        posted: "October 22, 2024",
+        comment:
+          "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
+      },
+      {
+        user: "Casey",
+        userRate: 2,
+        posted: "February 18, 2024",
+        comment:
+          "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
+      },
+      {
+        user: "Avery",
+        userRate: 4,
+        posted: "December 3, 2023",
+        comment:
+          "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
+      },
+      {
+        user: "Riley",
+        userRate: 5,
+        posted: "August 14, 2024",
+        comment:
+          "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
+      },
+    ],
   },
   {
     id: 13,
@@ -756,50 +756,50 @@ let products = [
     discount: 0,
     colors: ["gray", "dimgray", "black"],
     sizes: ["Small", "Medium", "Large", "X-large", "XX-large"],
-  comments: [
-  {
-    user: "Jordan",
-    userRate: 5,
-    posted: "March 10, 2024",
-    comment:
-      "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
-  },
-  {
-    user: "Taylor R.",
-    userRate: 3,
-    posted: "July 5, 2024",
-    comment:
-      "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
-  },
-  {
-    user: "Morgan",
-    userRate: 4,
-    posted: "October 22, 2024",
-    comment:
-      "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
-  },
-  {
-    user: "Casey",
-    userRate: 2,
-    posted: "February 18, 2024",
-    comment:
-      "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
-  },
-  {
-    user: "Avery",
-    userRate: 4,
-    posted: "December 3, 2023",
-    comment:
-      "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
-  },
-  {
-    user: "Riley",
-    userRate: 5,
-    posted: "August 14, 2024",
-    comment:
-      "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
-  },
-]
+    comments: [
+      {
+        user: "Jordan",
+        userRate: 5,
+        posted: "March 10, 2024",
+        comment:
+          "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
+      },
+      {
+        user: "Taylor R.",
+        userRate: 3,
+        posted: "July 5, 2024",
+        comment:
+          "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
+      },
+      {
+        user: "Morgan",
+        userRate: 4,
+        posted: "October 22, 2024",
+        comment:
+          "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
+      },
+      {
+        user: "Casey",
+        userRate: 2,
+        posted: "February 18, 2024",
+        comment:
+          "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
+      },
+      {
+        user: "Avery",
+        userRate: 4,
+        posted: "December 3, 2023",
+        comment:
+          "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
+      },
+      {
+        user: "Riley",
+        userRate: 5,
+        posted: "August 14, 2024",
+        comment:
+          "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
+      },
+    ],
   },
   {
     id: 14,
@@ -813,50 +813,50 @@ let products = [
     discount: 5,
     colors: ["darkslategray", "black", "indigo"],
     sizes: ["Small", "Medium", "Large", "X-large", "XX-large"],
-  comments: [
-  {
-    user: "Jordan",
-    userRate: 5,
-    posted: "March 10, 2024",
-    comment:
-      "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
-  },
-  {
-    user: "Taylor R.",
-    userRate: 3,
-    posted: "July 5, 2024",
-    comment:
-      "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
-  },
-  {
-    user: "Morgan",
-    userRate: 4,
-    posted: "October 22, 2024",
-    comment:
-      "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
-  },
-  {
-    user: "Casey",
-    userRate: 2,
-    posted: "February 18, 2024",
-    comment:
-      "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
-  },
-  {
-    user: "Avery",
-    userRate: 4,
-    posted: "December 3, 2023",
-    comment:
-      "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
-  },
-  {
-    user: "Riley",
-    userRate: 5,
-    posted: "August 14, 2024",
-    comment:
-      "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
-  },
-]
+    comments: [
+      {
+        user: "Jordan",
+        userRate: 5,
+        posted: "March 10, 2024",
+        comment:
+          "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
+      },
+      {
+        user: "Taylor R.",
+        userRate: 3,
+        posted: "July 5, 2024",
+        comment:
+          "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
+      },
+      {
+        user: "Morgan",
+        userRate: 4,
+        posted: "October 22, 2024",
+        comment:
+          "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
+      },
+      {
+        user: "Casey",
+        userRate: 2,
+        posted: "February 18, 2024",
+        comment:
+          "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
+      },
+      {
+        user: "Avery",
+        userRate: 4,
+        posted: "December 3, 2023",
+        comment:
+          "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
+      },
+      {
+        user: "Riley",
+        userRate: 5,
+        posted: "August 14, 2024",
+        comment:
+          "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
+      },
+    ],
   },
 
   {
@@ -871,50 +871,50 @@ let products = [
     discount: 0,
     colors: ["midnightblue", "black", "darkmagenta"],
     sizes: ["Small", "Medium", "Large", "X-large", "XX-large"],
-  comments: [
-  {
-    user: "Jordan",
-    userRate: 5,
-    posted: "March 10, 2024",
-    comment:
-      "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
-  },
-  {
-    user: "Taylor R.",
-    userRate: 3,
-    posted: "July 5, 2024",
-    comment:
-      "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
-  },
-  {
-    user: "Morgan",
-    userRate: 4,
-    posted: "October 22, 2024",
-    comment:
-      "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
-  },
-  {
-    user: "Casey",
-    userRate: 2,
-    posted: "February 18, 2024",
-    comment:
-      "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
-  },
-  {
-    user: "Avery",
-    userRate: 4,
-    posted: "December 3, 2023",
-    comment:
-      "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
-  },
-  {
-    user: "Riley",
-    userRate: 5,
-    posted: "August 14, 2024",
-    comment:
-      "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
-  },
-]
+    comments: [
+      {
+        user: "Jordan",
+        userRate: 5,
+        posted: "March 10, 2024",
+        comment:
+          "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
+      },
+      {
+        user: "Taylor R.",
+        userRate: 3,
+        posted: "July 5, 2024",
+        comment:
+          "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
+      },
+      {
+        user: "Morgan",
+        userRate: 4,
+        posted: "October 22, 2024",
+        comment:
+          "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
+      },
+      {
+        user: "Casey",
+        userRate: 2,
+        posted: "February 18, 2024",
+        comment:
+          "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
+      },
+      {
+        user: "Avery",
+        userRate: 4,
+        posted: "December 3, 2023",
+        comment:
+          "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
+      },
+      {
+        user: "Riley",
+        userRate: 5,
+        posted: "August 14, 2024",
+        comment:
+          "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
+      },
+    ],
   },
   {
     id: 16,
@@ -928,50 +928,50 @@ let products = [
     discount: 0,
     colors: ["black", "darkolivegreen", "gray"],
     sizes: ["Small", "Medium", "Large", "X-large", "XX-large"],
-comments: [
-  {
-    user: "Jordan",
-    userRate: 5,
-    posted: "March 10, 2024",
-    comment:
-      "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
-  },
-  {
-    user: "Taylor R.",
-    userRate: 3,
-    posted: "July 5, 2024",
-    comment:
-      "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
-  },
-  {
-    user: "Morgan",
-    userRate: 4,
-    posted: "October 22, 2024",
-    comment:
-      "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
-  },
-  {
-    user: "Casey",
-    userRate: 2,
-    posted: "February 18, 2024",
-    comment:
-      "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
-  },
-  {
-    user: "Avery",
-    userRate: 4,
-    posted: "December 3, 2023",
-    comment:
-      "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
-  },
-  {
-    user: "Riley",
-    userRate: 5,
-    posted: "August 14, 2024",
-    comment:
-      "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
-  },
-]
+    comments: [
+      {
+        user: "Jordan",
+        userRate: 5,
+        posted: "March 10, 2024",
+        comment:
+          "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
+      },
+      {
+        user: "Taylor R.",
+        userRate: 3,
+        posted: "July 5, 2024",
+        comment:
+          "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
+      },
+      {
+        user: "Morgan",
+        userRate: 4,
+        posted: "October 22, 2024",
+        comment:
+          "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
+      },
+      {
+        user: "Casey",
+        userRate: 2,
+        posted: "February 18, 2024",
+        comment:
+          "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
+      },
+      {
+        user: "Avery",
+        userRate: 4,
+        posted: "December 3, 2023",
+        comment:
+          "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
+      },
+      {
+        user: "Riley",
+        userRate: 5,
+        posted: "August 14, 2024",
+        comment:
+          "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
+      },
+    ],
   },
   {
     id: 17,
@@ -985,50 +985,50 @@ comments: [
     discount: 0,
     colors: ["black", "charcoal", "navy"],
     sizes: ["Small", "Medium", "Large", "X-large", "XX-large"],
-  comments: [
-  {
-    user: "Jordan",
-    userRate: 5,
-    posted: "March 10, 2024",
-    comment:
-      "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
-  },
-  {
-    user: "Taylor R.",
-    userRate: 3,
-    posted: "July 5, 2024",
-    comment:
-      "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
-  },
-  {
-    user: "Morgan",
-    userRate: 4,
-    posted: "October 22, 2024",
-    comment:
-      "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
-  },
-  {
-    user: "Casey",
-    userRate: 2,
-    posted: "February 18, 2024",
-    comment:
-      "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
-  },
-  {
-    user: "Avery",
-    userRate: 4,
-    posted: "December 3, 2023",
-    comment:
-      "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
-  },
-  {
-    user: "Riley",
-    userRate: 5,
-    posted: "August 14, 2024",
-    comment:
-      "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
-  },
-]
+    comments: [
+      {
+        user: "Jordan",
+        userRate: 5,
+        posted: "March 10, 2024",
+        comment:
+          "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
+      },
+      {
+        user: "Taylor R.",
+        userRate: 3,
+        posted: "July 5, 2024",
+        comment:
+          "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
+      },
+      {
+        user: "Morgan",
+        userRate: 4,
+        posted: "October 22, 2024",
+        comment:
+          "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
+      },
+      {
+        user: "Casey",
+        userRate: 2,
+        posted: "February 18, 2024",
+        comment:
+          "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
+      },
+      {
+        user: "Avery",
+        userRate: 4,
+        posted: "December 3, 2023",
+        comment:
+          "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
+      },
+      {
+        user: "Riley",
+        userRate: 5,
+        posted: "August 14, 2024",
+        comment:
+          "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
+      },
+    ],
   },
   {
     id: 18,
@@ -1043,49 +1043,49 @@ comments: [
     colors: ["darkorchid", "black", "indigo"],
     sizes: ["Small", "Medium", "Large", "X-large", "XX-large"],
     comments: [
-  {
-    user: "Jordan",
-    userRate: 5,
-    posted: "March 10, 2024",
-    comment:
-      "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
-  },
-  {
-    user: "Taylor R.",
-    userRate: 3,
-    posted: "July 5, 2024",
-    comment:
-      "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
-  },
-  {
-    user: "Morgan",
-    userRate: 4,
-    posted: "October 22, 2024",
-    comment:
-      "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
-  },
-  {
-    user: "Casey",
-    userRate: 2,
-    posted: "February 18, 2024",
-    comment:
-      "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
-  },
-  {
-    user: "Avery",
-    userRate: 4,
-    posted: "December 3, 2023",
-    comment:
-      "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
-  },
-  {
-    user: "Riley",
-    userRate: 5,
-    posted: "August 14, 2024",
-    comment:
-      "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
-  },
-]
+      {
+        user: "Jordan",
+        userRate: 5,
+        posted: "March 10, 2024",
+        comment:
+          "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
+      },
+      {
+        user: "Taylor R.",
+        userRate: 3,
+        posted: "July 5, 2024",
+        comment:
+          "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
+      },
+      {
+        user: "Morgan",
+        userRate: 4,
+        posted: "October 22, 2024",
+        comment:
+          "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
+      },
+      {
+        user: "Casey",
+        userRate: 2,
+        posted: "February 18, 2024",
+        comment:
+          "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
+      },
+      {
+        user: "Avery",
+        userRate: 4,
+        posted: "December 3, 2023",
+        comment:
+          "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
+      },
+      {
+        user: "Riley",
+        userRate: 5,
+        posted: "August 14, 2024",
+        comment:
+          "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
+      },
+    ],
   },
   {
     id: 19,
@@ -1106,6 +1106,119 @@ comments: [
         posted: "March 10, 2024",
         comment:
           "This shirt has quickly become my favorite! The fabric is soft and breathable, perfect for casual wear. Highly recommend for anyone looking for comfort and style.",
+      },
+      {
+        user: "Taylor R.",
+        userRate: 3.5,
+        posted: "July 5, 2024",
+        comment:
+          "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
+      },
+      {
+        user: "Morgan",
+        userRate: 4,
+        posted: "October 22, 2024",
+        comment:
+          "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
+      },
+      {
+        user: "Casey",
+        userRate: 2,
+        posted: "February 18, 2024",
+        comment:
+          "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
+      },
+      {
+        user: "Avery",
+        userRate: 4,
+        posted: "December 3, 2023",
+        comment:
+          "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
+      },
+      {
+        user: "Riley",
+        userRate: 5,
+        posted: "August 14, 2024",
+        comment:
+          "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
+      },
+    ],
+  },
+
+  {
+    id: 21,
+    title: "For poor Mirzohid",
+    image: "./images/6.jpg",
+    rating: 4.5,
+    price: 0,
+    category: "Casual",
+    about:
+      "Designed for poority. Original signature from Mirzohid himself",
+    discount: 10,
+    colors: ["darkcyan", "black", "darkslategray"],
+    sizes: ["Small"],
+    comments: [
+      {
+        user: "Amin",
+        userRate: 5,
+        posted: "March 10, 2024",
+        comment: "Juda zor ekan, Lekin",
+      },
+      {
+        user: "Taylor R.",
+        userRate: 3.5,
+        posted: "July 5, 2024",
+        comment:
+          "Good quality overall, but the fit was a bit off for me. Colors are vibrant though, and the material feels durable. Might order a different size next time.",
+      },
+      {
+        user: "Morgan",
+        userRate: 4,
+        posted: "October 22, 2024",
+        comment:
+          "I appreciate the unique pattern and modern look of this tee. It pairs well with both jeans and shorts. Definitely a wardrobe staple for me now!",
+      },
+      {
+        user: "Casey",
+        userRate: 2,
+        posted: "February 18, 2024",
+        comment:
+          "The design caught my eye but the stitching quality could be better. After a few washes, it started to show some wear. Not sure if I'd buy again at this price.",
+      },
+      {
+        user: "Avery",
+        userRate: 4,
+        posted: "December 3, 2023",
+        comment:
+          "Comfortable and stylish t-shirt that works well for casual outings and day-to-day wear. The fabric is thick enough to feel premium without being heavy.",
+      },
+      {
+        user: "Riley",
+        userRate: 5,
+        posted: "August 14, 2024",
+        comment:
+          "Exceeded my expectations! The colors stayed bright even after multiple washes, and the fit is just right. Perfect blend of style and comfort.",
+      },
+    ],
+  },
+  {
+    id: 20,
+    title: "Saidmalik signatured T-shirt",
+    image: "./images/5.jpg",
+    rating: 4.5,
+    price: 400,
+    category: "Casual",
+    about:
+      "Designed for comfortability. Original signature from Saidmalik itself",
+    discount: 10,
+    colors: ["darkcyan", "black", "darkslategray"],
+    sizes: ["Small"],
+    comments: [
+      {
+        user: "Amin",
+        userRate: 5,
+        posted: "March 10, 2024",
+        comment: "Juda zor ekan, Lekin",
       },
       {
         user: "Taylor R.",
